@@ -586,10 +586,14 @@ table.contact td > span { display: inline-block;padding: 0 20px 0 0; }
 /* Corporate */
 
 #container.corporate { 
-	article > section.border > ul.h > li { margin-right: 22px;
-		img { border: solid 3px @magenta3; margin-bottom: 10px; }
+	article {  float: none; width: 1092px;
+		p { margin-bottom: 20px; }
+	}
+	article > ul.h { margin: 20px 0 30px; }
+	article > ul.h > li { margin-right: 17px;
+		img { margin-bottom: 10px; }
 	 }
-	article > section.border > ul.h > li:nth-child(4n) { margin-right: 0;  }
+	article > ul.h > li:nth-child(4n) { margin-right: 0;  }
 }
 
 /* Template */
@@ -618,6 +622,17 @@ section.border { border: solid 1px #0e0e0e; padding: 20px;  }
 		h3 { background: url('../img/bg-headText.png') repeat-x bottom center; height: 45px; color: @magenta3; font-family: 'HelvethaicaMon';  font-size: 20px; font-weight: normal; margin-bottom: 20px; margin-top: 0; }
 	h3:before { content: ''; .size(18px,13px); display: inline-block; background: url('../img/bullet-headText.png') no-repeat; margin-right: 10px;  }
 	.border > img { margin: 0 auto 20px; border: solid 5px #fff; display: block; }
+	}
+}
+#container.girl_group { 
+	article { 
+		h2 { background: url("../img/hd-h3_full.png") center top no-repeat; border-radius: 5px; color: @yellow;    font-family: 'HelvethaicaMon';    font-size: 18px;    font-weight: normal;     height: 50px;    line-height: 50px;    text-indent: 20px;    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); }
+		dd > ul.h > li { padding-left: 120px; position: relative; font-family: 'HelvethaicaMon'; font-size: 11px; line-height: 10px; width: 149px; margin-bottom: 15px;
+			img { position: absolute; left: 0; top: 5px; }
+			label { color: @yellow_light; font-size: 11px; margin: 0 0 1px; font-family: 'HelvethaicaMon Med'; display: inline-block; width: 50px;}
+		}
+		dd { margin: 15px 0; }
+		dt { font-family: 'HelvethaicaMon'; font-weight: normal; color: @yellow_light; font-size: 15px; padding-left: 22px; background: url('../img/bullet-slider_active.png') no-repeat left 2px; }
 	}
 }
 

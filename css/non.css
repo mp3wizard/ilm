@@ -3243,14 +3243,23 @@ table.contact td > span {
   background: url('../img/hd-ads_rate.png') no-repeat;
 }
 /* Corporate */
-#container.corporate article > section.border > ul.h > li {
-  margin-right: 22px;
+#container.corporate article {
+  float: none;
+  width: 1092px;
 }
-#container.corporate article > section.border > ul.h > li img {
-  border: solid 3px #830050;
+#container.corporate article p {
+  margin-bottom: 20px;
+}
+#container.corporate article > ul.h {
+  margin: 20px 0 30px;
+}
+#container.corporate article > ul.h > li {
+  margin-right: 17px;
+}
+#container.corporate article > ul.h > li img {
   margin-bottom: 10px;
 }
-#container.corporate article > section.border > ul.h > li:nth-child(4n) {
+#container.corporate article > ul.h > li:nth-child(4n) {
   margin-right: 0;
 }
 /* Template */
@@ -3350,6 +3359,51 @@ section.border {
   margin: 0 auto 20px;
   border: solid 5px #fff;
   display: block;
+}
+#container.girl_group article h2 {
+  background: url("../img/hd-h3_full.png") center top no-repeat;
+  border-radius: 5px;
+  color: #e1bf15;
+  font-family: 'HelvethaicaMon';
+  font-size: 18px;
+  font-weight: normal;
+  height: 50px;
+  line-height: 50px;
+  text-indent: 20px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+#container.girl_group article dd > ul.h > li {
+  padding-left: 120px;
+  position: relative;
+  font-family: 'HelvethaicaMon';
+  font-size: 11px;
+  line-height: 10px;
+  width: 149px;
+  margin-bottom: 15px;
+}
+#container.girl_group article dd > ul.h > li img {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+#container.girl_group article dd > ul.h > li label {
+  color: #f2d2ab;
+  font-size: 11px;
+  margin: 0 0 1px;
+  font-family: 'HelvethaicaMon Med';
+  display: inline-block;
+  width: 50px;
+}
+#container.girl_group article dd {
+  margin: 15px 0;
+}
+#container.girl_group article dt {
+  font-family: 'HelvethaicaMon';
+  font-weight: normal;
+  color: #f2d2ab;
+  font-size: 15px;
+  padding-left: 22px;
+  background: url('../img/bullet-slider_active.png') no-repeat left 2px;
 }
 /*  Button */
 .button.gold {

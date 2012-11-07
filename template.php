@@ -19,7 +19,9 @@
     	</header>
 	    <article>
 		    <p id="share_button"></p>
-		    <section class="border"></section>
+		    <section class="border">
+<!-- 			    Content -->
+		    </section>
 	    </article>
 	    <aside>
 		    <?php include("include/side_1.html"); ?>
