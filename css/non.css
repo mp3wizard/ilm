@@ -158,6 +158,7 @@ footer {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background-color: #d6ac12;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
   background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDU1IDI3IiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9ImhhdDAiIGdyYWRpZW50VW5pdHM9Im9iamVjdEJvdW5kaW5nQm94IiB4MT0iNTAlIiB5MT0iMTAwJSIgeDI9IjUwJSIgeTI9Ii0xLjQyMTA4NTQ3MTUyMDJlLTE0JSI+CjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNhZjg3MGIiIHN0b3Atb3BhY2l0eT0iMSIvPgo8c3RvcCBvZmZzZXQ9IjQ2JSIgc3RvcC1jb2xvcj0iI2NiYTEwZiIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iNDglIiBzdG9wLWNvbG9yPSIjZDVhYjExIiBzdG9wLW9wYWNpdHk9IjEiLz4KPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZjljYjE5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgPC9saW5lYXJHcmFkaWVudD4KCjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSI1NSIgaGVpZ2h0PSIyNyIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+);
   background-image: -moz-linear-gradient(0deg, #af870b 0%, #cba10f 46.24%, #d5ab11 48.24%, #f9cb19 100%);
   background-image: -o-linear-gradient(0deg, #af870b 0%, #cba10f 46.24%, #d5ab11 48.24%, #f9cb19 100%);
@@ -479,6 +480,213 @@ footer.intro .inner p a:first-child {
 .client header section {
   margin-top: 20px;
 }
+/* MIC */
+#container.mic article.full {
+  width: 1056px;
+  margin-bottom: 50px;
+}
+#container.mic article.full h2 {
+  background: url('../img/hd-mic.png') no-repeat;
+  margin-bottom: 30px;
+}
+#container.mic article.full .map {
+  width: 1056px;
+  height: 512px;
+  border: solid 2px #969696;
+  margin: 0;
+}
+#container.mic article.full .map_point {
+  background-color: #afafaf;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIxMDAlIiB4Mj0iMCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FmYWZhZiIgc3RvcC1vcGFjaXR5PSIxIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZjFmMWYxIiBzdG9wLW9wYWNpdHk9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+PC9zdmc+);
+  background-image: -moz-linear-gradient(bottom, #afafaf 0%, #f1f1f1 100%);
+  background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0%,#afafaf),color-stop(100%,#f1f1f1));
+  background-image: -webkit-linear-gradient(bottom, #afafaf 0%, #f1f1f1 100%);
+  background-image: -o-linear-gradient(bottom, #afafaf 0%, #f1f1f1 100%);
+  background-image: linear-gradient(bottom, #afafaf 0%, #f1f1f1 100%);
+  border: solid 2px #969696;
+  border-bottom: solid 1px #969696;
+  border-top: 0;
+  width: 1016px;
+  height: auto;
+  -webkit-border-radius: 0 0 10px 10px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0 0 10px 10px;
+  -moz-background-clip: padding;
+  border-radius: 0 0 10px 10px;
+  background-clip: padding-box;
+  padding: 20px;
+  color: #636363;
+  font-family: 'HelvethaicaMon';
+}
+#container.mic article.full .map_point tbody > tr > td:nth-child(1),
+#container.mic article.full .map_point tbody > tr > td:nth-child(3) {
+  width: 100px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+#container.mic article.full .map_point tbody > tr > td:nth-child(3) {
+  width: 140px;
+  padding-left: 20px;
+}
+#container.mic article.full .map_point td label {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+#container.mic article.full .map_point .submit {
+  text-align: right;
+}
+#container.mic article.full .map_point .submit input[type=checkbox] {
+  margin-right: 5px;
+}
+#container.mic article.full .map_point .submit input[type=submit] {
+  width: 130px;
+  height: 30px;
+  background: url('../img/btn-search.png') no-repeat;
+  border: none;
+  text-indent: -1000em;
+}
+#container.mic article.full .map_point .submit label {
+  display: inline-block;
+  width: 65px;
+  text-align: left;
+}
+#container.mic article.full .map_point input[type=text],
+#container.mic article.full .map_point select {
+  width: 238px;
+  height: 23px;
+  padding: 0px;
+  border-radius: 0;
+  border: solid 1px #b4b4b4;
+}
+#container.mic article.full .map_point .bullet {
+  margin: 0 0 0 20px;
+  padding: 0 20px;
+  border-left: dashed 1px #939393;
+  position: relative;
+  top: -8px;
+}
+#container.mic article.full .map_point .bullet img {
+  margin-right: 10px;
+}
+#container.mic article.full .map_point .bullet li {
+  padding-bottom: 6px;
+  white-space: nowrap;
+}
+#container.mic article.full .map_point .bullet:after {
+  border-left: dashed 1px #fff;
+  height: 100%;
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+}
+#container.mic article.full .map_point > label {
+  font-family: 'Myriad Pro', Arial;
+  font-size: 26px;
+  text-shadow: 0 1px 0 #fff;
+  display: block;
+  margin-bottom: 15px;
+}
+#container.mic #search_result h2 {
+  background: url('../img/hd-search_result.png') no-repeat;
+  margin-bottom: 30px;
+}
+#container.mic #search_result div {
+  padding: 5px 10px;
+  margin: 0 25px 20px 22px;
+  background: #ecc7d3;
+  border: solid 1px #d4829d;
+}
+#container.mic #search_result div table {
+  width: 100%;
+}
+#container.mic #search_result div td {
+  padding: 0 5px;
+  font-family: 'HelvethaicaMon';
+  color: #636363;
+  vertical-align: top;
+  line-height: 22px;
+}
+#container.mic #search_result div strong {
+  white-space: nowrap;
+  font-family: 'HelvethaicaMon Med';
+  font-weight: normal;
+}
+#container.mic #search_result div td.logo {
+  padding: 0 10px 0 0;
+  width: 120px;
+  text-align: center;
+  vertical-align: middle;
+}
+#container.mic #search_result div td.vote {
+  background: #d4829d;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: Tahoma;
+}
+#container.mic #search_result div td.vote strong {
+  color: #ca0000;
+  display: inline-block;
+  padding: 0 5px;
+}
+#container.mic #search_result div td.address {
+  width: 200px;
+  padding: 0;
+}
+#container.mic #search_result div td.address strong {
+  display: block;
+}
+#container.mic #search_result div td.address > div {
+  border: none;
+  border-left: dashed 1px #dfa3b7;
+  padding: 0 10px;
+  background: transparent;
+  margin: 5px 0;
+  position: relative;
+}
+#container.mic #search_result div td.address > div:after {
+  border: none;
+  border-left: dashed 1px rgba(255, 255, 255, 0.5);
+  content: '';
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  display: block;
+}
+#container.mic #search_result div td.labels {
+  width: 60px;
+  background: transparent;
+}
+#container.mic #search_result #search_result > div {
+  float: none;
+}
+#container.mic #search_result section.round {
+  float: none;
+}
+#container.mic #search_result section.round > div {
+  background: #e5c7ec;
+  border: solid 1px #c482d4;
+  margin: 0 0 20px;
+}
+#container.mic #search_result section.round > div td.vote {
+  background: #c482d4;
+}
+#container.mic #search_result section.round > div td.address > div {
+  border-left: dashed 1px #d3a3df;
+}
+#container.mic #search_result section.round > div:last-child {
+  margin-bottom: 0;
+}
+#container.mic .google_ads {
+  clear: both;
+  width: 1100px;
+  height: 100px;
+  margin-bottom: 50px;
+}
 /* Aside */
 aside {
   float: right;
@@ -606,7 +814,8 @@ aside .fb-like-box {
   display: table-cell;
 }
 /* Article */
-article.round {
+article.round,
+section.round {
   float: left;
   width: 810px;
   padding: 20px;
@@ -1010,7 +1219,8 @@ table.contact td > span {
 #container.detail,
 #container.lifestyle,
 #container.voucher,
-#container.template {
+#container.template,
+#container.mic {
   background: #090909 url('../img/bg-home_container.jpg') no-repeat;
   margin-bottom: 40px;
 }
@@ -1018,35 +1228,40 @@ table.contact td > span {
 #container.detail h2,
 #container.lifestyle h2,
 #container.voucher h2,
-#container.template h2 {
+#container.template h2,
+#container.mic h2 {
   height: 52px;
 }
 #container.home div.banner,
 #container.detail div.banner,
 #container.lifestyle div.banner,
 #container.voucher div.banner,
-#container.template div.banner {
+#container.template div.banner,
+#container.mic div.banner {
   margin-bottom: 20px;
 }
 #container.home header h1 a,
 #container.detail header h1 a,
 #container.lifestyle header h1 a,
 #container.voucher header h1 a,
-#container.template header h1 a {
+#container.template header h1 a,
+#container.mic header h1 a {
   height: 80px;
 }
 #container.home header .share,
 #container.detail header .share,
 #container.lifestyle header .share,
 #container.voucher header .share,
-#container.template header .share {
+#container.template header .share,
+#container.mic header .share {
   top: 32px;
 }
 #container.home article,
 #container.detail article,
 #container.lifestyle article,
 #container.voucher article,
-#container.template article {
+#container.template article,
+#container.mic article {
   width: 855px;
   float: left;
 }
@@ -1055,16 +1270,19 @@ table.contact td > span {
 #container.lifestyle article > div,
 #container.voucher article > div,
 #container.template article > div,
+#container.mic article > div,
 #container.home aside > div,
 #container.detail aside > div,
 #container.lifestyle aside > div,
 #container.voucher aside > div,
 #container.template aside > div,
+#container.mic aside > div,
 #container.home #home_clip,
 #container.detail #home_clip,
 #container.lifestyle #home_clip,
 #container.voucher #home_clip,
-#container.template #home_clip {
+#container.template #home_clip,
+#container.mic #home_clip {
   position: relative;
   margin-bottom: 20px;
 }
@@ -1072,7 +1290,8 @@ table.contact td > span {
 #container.detail div > h3:first-child,
 #container.lifestyle div > h3:first-child,
 #container.voucher div > h3:first-child,
-#container.template div > h3:first-child {
+#container.template div > h3:first-child,
+#container.mic div > h3:first-child {
   border-radius: 5px 5px 0 0;
   font-family: 'HelvethaicaMon Med';
   font-weight: normal;
@@ -1091,36 +1310,43 @@ table.contact td > span {
 #container.lifestyle #home_new_model,
 #container.voucher #home_new_model,
 #container.template #home_new_model,
+#container.mic #home_new_model,
 #container.home #home_homework,
 #container.detail #home_homework,
 #container.lifestyle #home_homework,
 #container.voucher #home_homework,
 #container.template #home_homework,
+#container.mic #home_homework,
 #container.home #home_hunter,
 #container.detail #home_hunter,
 #container.lifestyle #home_hunter,
 #container.voucher #home_hunter,
 #container.template #home_hunter,
+#container.mic #home_hunter,
 #container.home #night_news,
 #container.detail #night_news,
 #container.lifestyle #night_news,
 #container.voucher #night_news,
 #container.template #night_news,
+#container.mic #night_news,
 #container.home #home_clip,
 #container.detail #home_clip,
 #container.lifestyle #home_clip,
 #container.voucher #home_clip,
 #container.template #home_clip,
+#container.mic #home_clip,
 #container.home #home_restaurant,
 #container.detail #home_restaurant,
 #container.lifestyle #home_restaurant,
 #container.voucher #home_restaurant,
 #container.template #home_restaurant,
+#container.mic #home_restaurant,
 #container.home #home_photo,
 #container.detail #home_photo,
 #container.lifestyle #home_photo,
 #container.voucher #home_photo,
-#container.template #home_photo {
+#container.template #home_photo,
+#container.mic #home_photo {
   width: 418px;
   float: left;
 }
@@ -1129,36 +1355,43 @@ table.contact td > span {
 #container.lifestyle #home_new_model ul,
 #container.voucher #home_new_model ul,
 #container.template #home_new_model ul,
+#container.mic #home_new_model ul,
 #container.home #home_homework ul,
 #container.detail #home_homework ul,
 #container.lifestyle #home_homework ul,
 #container.voucher #home_homework ul,
 #container.template #home_homework ul,
+#container.mic #home_homework ul,
 #container.home #home_hunter ul,
 #container.detail #home_hunter ul,
 #container.lifestyle #home_hunter ul,
 #container.voucher #home_hunter ul,
 #container.template #home_hunter ul,
+#container.mic #home_hunter ul,
 #container.home #night_news ul,
 #container.detail #night_news ul,
 #container.lifestyle #night_news ul,
 #container.voucher #night_news ul,
 #container.template #night_news ul,
+#container.mic #night_news ul,
 #container.home #home_clip ul,
 #container.detail #home_clip ul,
 #container.lifestyle #home_clip ul,
 #container.voucher #home_clip ul,
 #container.template #home_clip ul,
+#container.mic #home_clip ul,
 #container.home #home_restaurant ul,
 #container.detail #home_restaurant ul,
 #container.lifestyle #home_restaurant ul,
 #container.voucher #home_restaurant ul,
 #container.template #home_restaurant ul,
+#container.mic #home_restaurant ul,
 #container.home #home_photo ul,
 #container.detail #home_photo ul,
 #container.lifestyle #home_photo ul,
 #container.voucher #home_photo ul,
-#container.template #home_photo ul {
+#container.template #home_photo ul,
+#container.mic #home_photo ul {
   border: solid 1px #100f09;
   border-top: 0;
   border-radius: 0 0 5px 5px;
@@ -1170,36 +1403,43 @@ table.contact td > span {
 #container.lifestyle #home_new_model li img,
 #container.voucher #home_new_model li img,
 #container.template #home_new_model li img,
+#container.mic #home_new_model li img,
 #container.home #home_homework li img,
 #container.detail #home_homework li img,
 #container.lifestyle #home_homework li img,
 #container.voucher #home_homework li img,
 #container.template #home_homework li img,
+#container.mic #home_homework li img,
 #container.home #home_hunter li img,
 #container.detail #home_hunter li img,
 #container.lifestyle #home_hunter li img,
 #container.voucher #home_hunter li img,
 #container.template #home_hunter li img,
+#container.mic #home_hunter li img,
 #container.home #night_news li img,
 #container.detail #night_news li img,
 #container.lifestyle #night_news li img,
 #container.voucher #night_news li img,
 #container.template #night_news li img,
+#container.mic #night_news li img,
 #container.home #home_clip li img,
 #container.detail #home_clip li img,
 #container.lifestyle #home_clip li img,
 #container.voucher #home_clip li img,
 #container.template #home_clip li img,
+#container.mic #home_clip li img,
 #container.home #home_restaurant li img,
 #container.detail #home_restaurant li img,
 #container.lifestyle #home_restaurant li img,
 #container.voucher #home_restaurant li img,
 #container.template #home_restaurant li img,
+#container.mic #home_restaurant li img,
 #container.home #home_photo li img,
 #container.detail #home_photo li img,
 #container.lifestyle #home_photo li img,
 #container.voucher #home_photo li img,
-#container.template #home_photo li img {
+#container.template #home_photo li img,
+#container.mic #home_photo li img {
   position: absolute;
   left: 0;
   top: 0;
@@ -1211,36 +1451,43 @@ table.contact td > span {
 #container.lifestyle #home_new_model li,
 #container.voucher #home_new_model li,
 #container.template #home_new_model li,
+#container.mic #home_new_model li,
 #container.home #home_homework li,
 #container.detail #home_homework li,
 #container.lifestyle #home_homework li,
 #container.voucher #home_homework li,
 #container.template #home_homework li,
+#container.mic #home_homework li,
 #container.home #home_hunter li,
 #container.detail #home_hunter li,
 #container.lifestyle #home_hunter li,
 #container.voucher #home_hunter li,
 #container.template #home_hunter li,
+#container.mic #home_hunter li,
 #container.home #night_news li,
 #container.detail #night_news li,
 #container.lifestyle #night_news li,
 #container.voucher #night_news li,
 #container.template #night_news li,
+#container.mic #night_news li,
 #container.home #home_clip li,
 #container.detail #home_clip li,
 #container.lifestyle #home_clip li,
 #container.voucher #home_clip li,
 #container.template #home_clip li,
+#container.mic #home_clip li,
 #container.home #home_restaurant li,
 #container.detail #home_restaurant li,
 #container.lifestyle #home_restaurant li,
 #container.voucher #home_restaurant li,
 #container.template #home_restaurant li,
+#container.mic #home_restaurant li,
 #container.home #home_photo li,
 #container.detail #home_photo li,
 #container.lifestyle #home_photo li,
 #container.voucher #home_photo li,
-#container.template #home_photo li {
+#container.template #home_photo li,
+#container.mic #home_photo li {
   position: relative;
   padding-left: 130px;
   padding: 20px 20px 0 150px;
@@ -1253,36 +1500,43 @@ table.contact td > span {
 #container.lifestyle #home_new_model li a:first-child,
 #container.voucher #home_new_model li a:first-child,
 #container.template #home_new_model li a:first-child,
+#container.mic #home_new_model li a:first-child,
 #container.home #home_homework li a:first-child,
 #container.detail #home_homework li a:first-child,
 #container.lifestyle #home_homework li a:first-child,
 #container.voucher #home_homework li a:first-child,
 #container.template #home_homework li a:first-child,
+#container.mic #home_homework li a:first-child,
 #container.home #home_hunter li a:first-child,
 #container.detail #home_hunter li a:first-child,
 #container.lifestyle #home_hunter li a:first-child,
 #container.voucher #home_hunter li a:first-child,
 #container.template #home_hunter li a:first-child,
+#container.mic #home_hunter li a:first-child,
 #container.home #night_news li a:first-child,
 #container.detail #night_news li a:first-child,
 #container.lifestyle #night_news li a:first-child,
 #container.voucher #night_news li a:first-child,
 #container.template #night_news li a:first-child,
+#container.mic #night_news li a:first-child,
 #container.home #home_clip li a:first-child,
 #container.detail #home_clip li a:first-child,
 #container.lifestyle #home_clip li a:first-child,
 #container.voucher #home_clip li a:first-child,
 #container.template #home_clip li a:first-child,
+#container.mic #home_clip li a:first-child,
 #container.home #home_restaurant li a:first-child,
 #container.detail #home_restaurant li a:first-child,
 #container.lifestyle #home_restaurant li a:first-child,
 #container.voucher #home_restaurant li a:first-child,
 #container.template #home_restaurant li a:first-child,
+#container.mic #home_restaurant li a:first-child,
 #container.home #home_photo li a:first-child,
 #container.detail #home_photo li a:first-child,
 #container.lifestyle #home_photo li a:first-child,
 #container.voucher #home_photo li a:first-child,
-#container.template #home_photo li a:first-child {
+#container.template #home_photo li a:first-child,
+#container.mic #home_photo li a:first-child {
   margin: 0;
 }
 #container.home #home_new_model li a:first-child img,
@@ -1290,36 +1544,43 @@ table.contact td > span {
 #container.lifestyle #home_new_model li a:first-child img,
 #container.voucher #home_new_model li a:first-child img,
 #container.template #home_new_model li a:first-child img,
+#container.mic #home_new_model li a:first-child img,
 #container.home #home_homework li a:first-child img,
 #container.detail #home_homework li a:first-child img,
 #container.lifestyle #home_homework li a:first-child img,
 #container.voucher #home_homework li a:first-child img,
 #container.template #home_homework li a:first-child img,
+#container.mic #home_homework li a:first-child img,
 #container.home #home_hunter li a:first-child img,
 #container.detail #home_hunter li a:first-child img,
 #container.lifestyle #home_hunter li a:first-child img,
 #container.voucher #home_hunter li a:first-child img,
 #container.template #home_hunter li a:first-child img,
+#container.mic #home_hunter li a:first-child img,
 #container.home #night_news li a:first-child img,
 #container.detail #night_news li a:first-child img,
 #container.lifestyle #night_news li a:first-child img,
 #container.voucher #night_news li a:first-child img,
 #container.template #night_news li a:first-child img,
+#container.mic #night_news li a:first-child img,
 #container.home #home_clip li a:first-child img,
 #container.detail #home_clip li a:first-child img,
 #container.lifestyle #home_clip li a:first-child img,
 #container.voucher #home_clip li a:first-child img,
 #container.template #home_clip li a:first-child img,
+#container.mic #home_clip li a:first-child img,
 #container.home #home_restaurant li a:first-child img,
 #container.detail #home_restaurant li a:first-child img,
 #container.lifestyle #home_restaurant li a:first-child img,
 #container.voucher #home_restaurant li a:first-child img,
 #container.template #home_restaurant li a:first-child img,
+#container.mic #home_restaurant li a:first-child img,
 #container.home #home_photo li a:first-child img,
 #container.detail #home_photo li a:first-child img,
 #container.lifestyle #home_photo li a:first-child img,
 #container.voucher #home_photo li a:first-child img,
-#container.template #home_photo li a:first-child img {
+#container.template #home_photo li a:first-child img,
+#container.mic #home_photo li a:first-child img {
   top: 20px;
   left: 20px;
 }
@@ -1328,36 +1589,43 @@ table.contact td > span {
 #container.lifestyle #home_new_model label,
 #container.voucher #home_new_model label,
 #container.template #home_new_model label,
+#container.mic #home_new_model label,
 #container.home #home_homework label,
 #container.detail #home_homework label,
 #container.lifestyle #home_homework label,
 #container.voucher #home_homework label,
 #container.template #home_homework label,
+#container.mic #home_homework label,
 #container.home #home_hunter label,
 #container.detail #home_hunter label,
 #container.lifestyle #home_hunter label,
 #container.voucher #home_hunter label,
 #container.template #home_hunter label,
+#container.mic #home_hunter label,
 #container.home #night_news label,
 #container.detail #night_news label,
 #container.lifestyle #night_news label,
 #container.voucher #night_news label,
 #container.template #night_news label,
+#container.mic #night_news label,
 #container.home #home_clip label,
 #container.detail #home_clip label,
 #container.lifestyle #home_clip label,
 #container.voucher #home_clip label,
 #container.template #home_clip label,
+#container.mic #home_clip label,
 #container.home #home_restaurant label,
 #container.detail #home_restaurant label,
 #container.lifestyle #home_restaurant label,
 #container.voucher #home_restaurant label,
 #container.template #home_restaurant label,
+#container.mic #home_restaurant label,
 #container.home #home_photo label,
 #container.detail #home_photo label,
 #container.lifestyle #home_photo label,
 #container.voucher #home_photo label,
-#container.template #home_photo label {
+#container.template #home_photo label,
+#container.mic #home_photo label {
   color: #f2d2ab;
   display: inline-block;
   width: 55px;
@@ -1369,36 +1637,43 @@ table.contact td > span {
 #container.lifestyle #home_new_model li a,
 #container.voucher #home_new_model li a,
 #container.template #home_new_model li a,
+#container.mic #home_new_model li a,
 #container.home #home_homework li a,
 #container.detail #home_homework li a,
 #container.lifestyle #home_homework li a,
 #container.voucher #home_homework li a,
 #container.template #home_homework li a,
+#container.mic #home_homework li a,
 #container.home #home_hunter li a,
 #container.detail #home_hunter li a,
 #container.lifestyle #home_hunter li a,
 #container.voucher #home_hunter li a,
 #container.template #home_hunter li a,
+#container.mic #home_hunter li a,
 #container.home #night_news li a,
 #container.detail #night_news li a,
 #container.lifestyle #night_news li a,
 #container.voucher #night_news li a,
 #container.template #night_news li a,
+#container.mic #night_news li a,
 #container.home #home_clip li a,
 #container.detail #home_clip li a,
 #container.lifestyle #home_clip li a,
 #container.voucher #home_clip li a,
 #container.template #home_clip li a,
+#container.mic #home_clip li a,
 #container.home #home_restaurant li a,
 #container.detail #home_restaurant li a,
 #container.lifestyle #home_restaurant li a,
 #container.voucher #home_restaurant li a,
 #container.template #home_restaurant li a,
+#container.mic #home_restaurant li a,
 #container.home #home_photo li a,
 #container.detail #home_photo li a,
 #container.lifestyle #home_photo li a,
 #container.voucher #home_photo li a,
-#container.template #home_photo li a {
+#container.template #home_photo li a,
+#container.mic #home_photo li a {
   display: block;
   color: #f2d2ab;
   text-decoration: none;
@@ -1411,36 +1686,43 @@ table.contact td > span {
 #container.lifestyle #home_new_model li > a:last-child,
 #container.voucher #home_new_model li > a:last-child,
 #container.template #home_new_model li > a:last-child,
+#container.mic #home_new_model li > a:last-child,
 #container.home #home_homework li > a:last-child,
 #container.detail #home_homework li > a:last-child,
 #container.lifestyle #home_homework li > a:last-child,
 #container.voucher #home_homework li > a:last-child,
 #container.template #home_homework li > a:last-child,
+#container.mic #home_homework li > a:last-child,
 #container.home #home_hunter li > a:last-child,
 #container.detail #home_hunter li > a:last-child,
 #container.lifestyle #home_hunter li > a:last-child,
 #container.voucher #home_hunter li > a:last-child,
 #container.template #home_hunter li > a:last-child,
+#container.mic #home_hunter li > a:last-child,
 #container.home #night_news li > a:last-child,
 #container.detail #night_news li > a:last-child,
 #container.lifestyle #night_news li > a:last-child,
 #container.voucher #night_news li > a:last-child,
 #container.template #night_news li > a:last-child,
+#container.mic #night_news li > a:last-child,
 #container.home #home_clip li > a:last-child,
 #container.detail #home_clip li > a:last-child,
 #container.lifestyle #home_clip li > a:last-child,
 #container.voucher #home_clip li > a:last-child,
 #container.template #home_clip li > a:last-child,
+#container.mic #home_clip li > a:last-child,
 #container.home #home_restaurant li > a:last-child,
 #container.detail #home_restaurant li > a:last-child,
 #container.lifestyle #home_restaurant li > a:last-child,
 #container.voucher #home_restaurant li > a:last-child,
 #container.template #home_restaurant li > a:last-child,
+#container.mic #home_restaurant li > a:last-child,
 #container.home #home_photo li > a:last-child,
 #container.detail #home_photo li > a:last-child,
 #container.lifestyle #home_photo li > a:last-child,
 #container.voucher #home_photo li > a:last-child,
-#container.template #home_photo li > a:last-child {
+#container.template #home_photo li > a:last-child,
+#container.mic #home_photo li > a:last-child {
   display: inline-block;
   font-size: 12px;
   color: #830050;
@@ -1451,36 +1733,43 @@ table.contact td > span {
 #container.lifestyle #home_new_model li > a:last-child:hover,
 #container.voucher #home_new_model li > a:last-child:hover,
 #container.template #home_new_model li > a:last-child:hover,
+#container.mic #home_new_model li > a:last-child:hover,
 #container.home #home_homework li > a:last-child:hover,
 #container.detail #home_homework li > a:last-child:hover,
 #container.lifestyle #home_homework li > a:last-child:hover,
 #container.voucher #home_homework li > a:last-child:hover,
 #container.template #home_homework li > a:last-child:hover,
+#container.mic #home_homework li > a:last-child:hover,
 #container.home #home_hunter li > a:last-child:hover,
 #container.detail #home_hunter li > a:last-child:hover,
 #container.lifestyle #home_hunter li > a:last-child:hover,
 #container.voucher #home_hunter li > a:last-child:hover,
 #container.template #home_hunter li > a:last-child:hover,
+#container.mic #home_hunter li > a:last-child:hover,
 #container.home #night_news li > a:last-child:hover,
 #container.detail #night_news li > a:last-child:hover,
 #container.lifestyle #night_news li > a:last-child:hover,
 #container.voucher #night_news li > a:last-child:hover,
 #container.template #night_news li > a:last-child:hover,
+#container.mic #night_news li > a:last-child:hover,
 #container.home #home_clip li > a:last-child:hover,
 #container.detail #home_clip li > a:last-child:hover,
 #container.lifestyle #home_clip li > a:last-child:hover,
 #container.voucher #home_clip li > a:last-child:hover,
 #container.template #home_clip li > a:last-child:hover,
+#container.mic #home_clip li > a:last-child:hover,
 #container.home #home_restaurant li > a:last-child:hover,
 #container.detail #home_restaurant li > a:last-child:hover,
 #container.lifestyle #home_restaurant li > a:last-child:hover,
 #container.voucher #home_restaurant li > a:last-child:hover,
 #container.template #home_restaurant li > a:last-child:hover,
+#container.mic #home_restaurant li > a:last-child:hover,
 #container.home #home_photo li > a:last-child:hover,
 #container.detail #home_photo li > a:last-child:hover,
 #container.lifestyle #home_photo li > a:last-child:hover,
 #container.voucher #home_photo li > a:last-child:hover,
-#container.template #home_photo li > a:last-child:hover {
+#container.template #home_photo li > a:last-child:hover,
+#container.mic #home_photo li > a:last-child:hover {
   color: #e9008e;
 }
 #container.home #home_new_model li:last-child,
@@ -1488,43 +1777,51 @@ table.contact td > span {
 #container.lifestyle #home_new_model li:last-child,
 #container.voucher #home_new_model li:last-child,
 #container.template #home_new_model li:last-child,
+#container.mic #home_new_model li:last-child,
 #container.home #home_homework li:last-child,
 #container.detail #home_homework li:last-child,
 #container.lifestyle #home_homework li:last-child,
 #container.voucher #home_homework li:last-child,
 #container.template #home_homework li:last-child,
+#container.mic #home_homework li:last-child,
 #container.home #home_hunter li:last-child,
 #container.detail #home_hunter li:last-child,
 #container.lifestyle #home_hunter li:last-child,
 #container.voucher #home_hunter li:last-child,
 #container.template #home_hunter li:last-child,
+#container.mic #home_hunter li:last-child,
 #container.home #night_news li:last-child,
 #container.detail #night_news li:last-child,
 #container.lifestyle #night_news li:last-child,
 #container.voucher #night_news li:last-child,
 #container.template #night_news li:last-child,
+#container.mic #night_news li:last-child,
 #container.home #home_clip li:last-child,
 #container.detail #home_clip li:last-child,
 #container.lifestyle #home_clip li:last-child,
 #container.voucher #home_clip li:last-child,
 #container.template #home_clip li:last-child,
+#container.mic #home_clip li:last-child,
 #container.home #home_restaurant li:last-child,
 #container.detail #home_restaurant li:last-child,
 #container.lifestyle #home_restaurant li:last-child,
 #container.voucher #home_restaurant li:last-child,
 #container.template #home_restaurant li:last-child,
+#container.mic #home_restaurant li:last-child,
 #container.home #home_photo li:last-child,
 #container.detail #home_photo li:last-child,
 #container.lifestyle #home_photo li:last-child,
 #container.voucher #home_photo li:last-child,
-#container.template #home_photo li:last-child {
+#container.template #home_photo li:last-child,
+#container.mic #home_photo li:last-child {
   padding-bottom: 20px;
 }
 #container.home #home_new_model li,
 #container.detail #home_new_model li,
 #container.lifestyle #home_new_model li,
 #container.voucher #home_new_model li,
-#container.template #home_new_model li {
+#container.template #home_new_model li,
+#container.mic #home_new_model li {
   font-size: 11px;
   line-height: 10px;
 }
@@ -1533,31 +1830,37 @@ table.contact td > span {
 #container.lifestyle #home_top_ten,
 #container.voucher #home_top_ten,
 #container.template #home_top_ten,
+#container.mic #home_top_ten,
 #container.home #home_activity,
 #container.detail #home_activity,
 #container.lifestyle #home_activity,
 #container.voucher #home_activity,
 #container.template #home_activity,
+#container.mic #home_activity,
 #container.home #home_topic_hot,
 #container.detail #home_topic_hot,
 #container.lifestyle #home_topic_hot,
 #container.voucher #home_topic_hot,
 #container.template #home_topic_hot,
+#container.mic #home_topic_hot,
 #container.home #bath_news,
 #container.detail #bath_news,
 #container.lifestyle #bath_news,
 #container.voucher #bath_news,
 #container.template #bath_news,
+#container.mic #bath_news,
 #container.home #home_car,
 #container.detail #home_car,
 #container.lifestyle #home_car,
 #container.voucher #home_car,
 #container.template #home_car,
+#container.mic #home_car,
 #container.home #home_gadget,
 #container.detail #home_gadget,
 #container.lifestyle #home_gadget,
 #container.voucher #home_gadget,
-#container.template #home_gadget {
+#container.template #home_gadget,
+#container.mic #home_gadget {
   width: 418px;
   float: right;
 }
@@ -1566,31 +1869,37 @@ table.contact td > span {
 #container.lifestyle #home_top_ten ul,
 #container.voucher #home_top_ten ul,
 #container.template #home_top_ten ul,
+#container.mic #home_top_ten ul,
 #container.home #home_activity ul,
 #container.detail #home_activity ul,
 #container.lifestyle #home_activity ul,
 #container.voucher #home_activity ul,
 #container.template #home_activity ul,
+#container.mic #home_activity ul,
 #container.home #home_topic_hot ul,
 #container.detail #home_topic_hot ul,
 #container.lifestyle #home_topic_hot ul,
 #container.voucher #home_topic_hot ul,
 #container.template #home_topic_hot ul,
+#container.mic #home_topic_hot ul,
 #container.home #bath_news ul,
 #container.detail #bath_news ul,
 #container.lifestyle #bath_news ul,
 #container.voucher #bath_news ul,
 #container.template #bath_news ul,
+#container.mic #bath_news ul,
 #container.home #home_car ul,
 #container.detail #home_car ul,
 #container.lifestyle #home_car ul,
 #container.voucher #home_car ul,
 #container.template #home_car ul,
+#container.mic #home_car ul,
 #container.home #home_gadget ul,
 #container.detail #home_gadget ul,
 #container.lifestyle #home_gadget ul,
 #container.voucher #home_gadget ul,
-#container.template #home_gadget ul {
+#container.template #home_gadget ul,
+#container.mic #home_gadget ul {
   border: solid 1px #100f09;
   border-top: 0;
   border-radius: 0 0 5px 5px;
@@ -1602,31 +1911,37 @@ table.contact td > span {
 #container.lifestyle #home_top_ten li img,
 #container.voucher #home_top_ten li img,
 #container.template #home_top_ten li img,
+#container.mic #home_top_ten li img,
 #container.home #home_activity li img,
 #container.detail #home_activity li img,
 #container.lifestyle #home_activity li img,
 #container.voucher #home_activity li img,
 #container.template #home_activity li img,
+#container.mic #home_activity li img,
 #container.home #home_topic_hot li img,
 #container.detail #home_topic_hot li img,
 #container.lifestyle #home_topic_hot li img,
 #container.voucher #home_topic_hot li img,
 #container.template #home_topic_hot li img,
+#container.mic #home_topic_hot li img,
 #container.home #bath_news li img,
 #container.detail #bath_news li img,
 #container.lifestyle #bath_news li img,
 #container.voucher #bath_news li img,
 #container.template #bath_news li img,
+#container.mic #bath_news li img,
 #container.home #home_car li img,
 #container.detail #home_car li img,
 #container.lifestyle #home_car li img,
 #container.voucher #home_car li img,
 #container.template #home_car li img,
+#container.mic #home_car li img,
 #container.home #home_gadget li img,
 #container.detail #home_gadget li img,
 #container.lifestyle #home_gadget li img,
 #container.voucher #home_gadget li img,
-#container.template #home_gadget li img {
+#container.template #home_gadget li img,
+#container.mic #home_gadget li img {
   position: absolute;
   left: 0;
   top: 0;
@@ -1638,31 +1953,37 @@ table.contact td > span {
 #container.lifestyle #home_top_ten li,
 #container.voucher #home_top_ten li,
 #container.template #home_top_ten li,
+#container.mic #home_top_ten li,
 #container.home #home_activity li,
 #container.detail #home_activity li,
 #container.lifestyle #home_activity li,
 #container.voucher #home_activity li,
 #container.template #home_activity li,
+#container.mic #home_activity li,
 #container.home #home_topic_hot li,
 #container.detail #home_topic_hot li,
 #container.lifestyle #home_topic_hot li,
 #container.voucher #home_topic_hot li,
 #container.template #home_topic_hot li,
+#container.mic #home_topic_hot li,
 #container.home #bath_news li,
 #container.detail #bath_news li,
 #container.lifestyle #bath_news li,
 #container.voucher #bath_news li,
 #container.template #bath_news li,
+#container.mic #bath_news li,
 #container.home #home_car li,
 #container.detail #home_car li,
 #container.lifestyle #home_car li,
 #container.voucher #home_car li,
 #container.template #home_car li,
+#container.mic #home_car li,
 #container.home #home_gadget li,
 #container.detail #home_gadget li,
 #container.lifestyle #home_gadget li,
 #container.voucher #home_gadget li,
-#container.template #home_gadget li {
+#container.template #home_gadget li,
+#container.mic #home_gadget li {
   position: relative;
   padding-left: 130px;
   padding: 20px 20px 0 150px;
@@ -1675,31 +1996,37 @@ table.contact td > span {
 #container.lifestyle #home_top_ten li a:first-child,
 #container.voucher #home_top_ten li a:first-child,
 #container.template #home_top_ten li a:first-child,
+#container.mic #home_top_ten li a:first-child,
 #container.home #home_activity li a:first-child,
 #container.detail #home_activity li a:first-child,
 #container.lifestyle #home_activity li a:first-child,
 #container.voucher #home_activity li a:first-child,
 #container.template #home_activity li a:first-child,
+#container.mic #home_activity li a:first-child,
 #container.home #home_topic_hot li a:first-child,
 #container.detail #home_topic_hot li a:first-child,
 #container.lifestyle #home_topic_hot li a:first-child,
 #container.voucher #home_topic_hot li a:first-child,
 #container.template #home_topic_hot li a:first-child,
+#container.mic #home_topic_hot li a:first-child,
 #container.home #bath_news li a:first-child,
 #container.detail #bath_news li a:first-child,
 #container.lifestyle #bath_news li a:first-child,
 #container.voucher #bath_news li a:first-child,
 #container.template #bath_news li a:first-child,
+#container.mic #bath_news li a:first-child,
 #container.home #home_car li a:first-child,
 #container.detail #home_car li a:first-child,
 #container.lifestyle #home_car li a:first-child,
 #container.voucher #home_car li a:first-child,
 #container.template #home_car li a:first-child,
+#container.mic #home_car li a:first-child,
 #container.home #home_gadget li a:first-child,
 #container.detail #home_gadget li a:first-child,
 #container.lifestyle #home_gadget li a:first-child,
 #container.voucher #home_gadget li a:first-child,
-#container.template #home_gadget li a:first-child {
+#container.template #home_gadget li a:first-child,
+#container.mic #home_gadget li a:first-child {
   margin: 0;
 }
 #container.home #home_top_ten li a:first-child img,
@@ -1707,31 +2034,37 @@ table.contact td > span {
 #container.lifestyle #home_top_ten li a:first-child img,
 #container.voucher #home_top_ten li a:first-child img,
 #container.template #home_top_ten li a:first-child img,
+#container.mic #home_top_ten li a:first-child img,
 #container.home #home_activity li a:first-child img,
 #container.detail #home_activity li a:first-child img,
 #container.lifestyle #home_activity li a:first-child img,
 #container.voucher #home_activity li a:first-child img,
 #container.template #home_activity li a:first-child img,
+#container.mic #home_activity li a:first-child img,
 #container.home #home_topic_hot li a:first-child img,
 #container.detail #home_topic_hot li a:first-child img,
 #container.lifestyle #home_topic_hot li a:first-child img,
 #container.voucher #home_topic_hot li a:first-child img,
 #container.template #home_topic_hot li a:first-child img,
+#container.mic #home_topic_hot li a:first-child img,
 #container.home #bath_news li a:first-child img,
 #container.detail #bath_news li a:first-child img,
 #container.lifestyle #bath_news li a:first-child img,
 #container.voucher #bath_news li a:first-child img,
 #container.template #bath_news li a:first-child img,
+#container.mic #bath_news li a:first-child img,
 #container.home #home_car li a:first-child img,
 #container.detail #home_car li a:first-child img,
 #container.lifestyle #home_car li a:first-child img,
 #container.voucher #home_car li a:first-child img,
 #container.template #home_car li a:first-child img,
+#container.mic #home_car li a:first-child img,
 #container.home #home_gadget li a:first-child img,
 #container.detail #home_gadget li a:first-child img,
 #container.lifestyle #home_gadget li a:first-child img,
 #container.voucher #home_gadget li a:first-child img,
-#container.template #home_gadget li a:first-child img {
+#container.template #home_gadget li a:first-child img,
+#container.mic #home_gadget li a:first-child img {
   top: 20px;
   left: 20px;
 }
@@ -1740,31 +2073,37 @@ table.contact td > span {
 #container.lifestyle #home_top_ten label,
 #container.voucher #home_top_ten label,
 #container.template #home_top_ten label,
+#container.mic #home_top_ten label,
 #container.home #home_activity label,
 #container.detail #home_activity label,
 #container.lifestyle #home_activity label,
 #container.voucher #home_activity label,
 #container.template #home_activity label,
+#container.mic #home_activity label,
 #container.home #home_topic_hot label,
 #container.detail #home_topic_hot label,
 #container.lifestyle #home_topic_hot label,
 #container.voucher #home_topic_hot label,
 #container.template #home_topic_hot label,
+#container.mic #home_topic_hot label,
 #container.home #bath_news label,
 #container.detail #bath_news label,
 #container.lifestyle #bath_news label,
 #container.voucher #bath_news label,
 #container.template #bath_news label,
+#container.mic #bath_news label,
 #container.home #home_car label,
 #container.detail #home_car label,
 #container.lifestyle #home_car label,
 #container.voucher #home_car label,
 #container.template #home_car label,
+#container.mic #home_car label,
 #container.home #home_gadget label,
 #container.detail #home_gadget label,
 #container.lifestyle #home_gadget label,
 #container.voucher #home_gadget label,
-#container.template #home_gadget label {
+#container.template #home_gadget label,
+#container.mic #home_gadget label {
   color: #f2d2ab;
   display: inline-block;
   width: 55px;
@@ -1776,31 +2115,37 @@ table.contact td > span {
 #container.lifestyle #home_top_ten li a,
 #container.voucher #home_top_ten li a,
 #container.template #home_top_ten li a,
+#container.mic #home_top_ten li a,
 #container.home #home_activity li a,
 #container.detail #home_activity li a,
 #container.lifestyle #home_activity li a,
 #container.voucher #home_activity li a,
 #container.template #home_activity li a,
+#container.mic #home_activity li a,
 #container.home #home_topic_hot li a,
 #container.detail #home_topic_hot li a,
 #container.lifestyle #home_topic_hot li a,
 #container.voucher #home_topic_hot li a,
 #container.template #home_topic_hot li a,
+#container.mic #home_topic_hot li a,
 #container.home #bath_news li a,
 #container.detail #bath_news li a,
 #container.lifestyle #bath_news li a,
 #container.voucher #bath_news li a,
 #container.template #bath_news li a,
+#container.mic #bath_news li a,
 #container.home #home_car li a,
 #container.detail #home_car li a,
 #container.lifestyle #home_car li a,
 #container.voucher #home_car li a,
 #container.template #home_car li a,
+#container.mic #home_car li a,
 #container.home #home_gadget li a,
 #container.detail #home_gadget li a,
 #container.lifestyle #home_gadget li a,
 #container.voucher #home_gadget li a,
-#container.template #home_gadget li a {
+#container.template #home_gadget li a,
+#container.mic #home_gadget li a {
   display: block;
   color: #f2d2ab;
   text-decoration: none;
@@ -1813,31 +2158,37 @@ table.contact td > span {
 #container.lifestyle #home_top_ten li > a:last-child,
 #container.voucher #home_top_ten li > a:last-child,
 #container.template #home_top_ten li > a:last-child,
+#container.mic #home_top_ten li > a:last-child,
 #container.home #home_activity li > a:last-child,
 #container.detail #home_activity li > a:last-child,
 #container.lifestyle #home_activity li > a:last-child,
 #container.voucher #home_activity li > a:last-child,
 #container.template #home_activity li > a:last-child,
+#container.mic #home_activity li > a:last-child,
 #container.home #home_topic_hot li > a:last-child,
 #container.detail #home_topic_hot li > a:last-child,
 #container.lifestyle #home_topic_hot li > a:last-child,
 #container.voucher #home_topic_hot li > a:last-child,
 #container.template #home_topic_hot li > a:last-child,
+#container.mic #home_topic_hot li > a:last-child,
 #container.home #bath_news li > a:last-child,
 #container.detail #bath_news li > a:last-child,
 #container.lifestyle #bath_news li > a:last-child,
 #container.voucher #bath_news li > a:last-child,
 #container.template #bath_news li > a:last-child,
+#container.mic #bath_news li > a:last-child,
 #container.home #home_car li > a:last-child,
 #container.detail #home_car li > a:last-child,
 #container.lifestyle #home_car li > a:last-child,
 #container.voucher #home_car li > a:last-child,
 #container.template #home_car li > a:last-child,
+#container.mic #home_car li > a:last-child,
 #container.home #home_gadget li > a:last-child,
 #container.detail #home_gadget li > a:last-child,
 #container.lifestyle #home_gadget li > a:last-child,
 #container.voucher #home_gadget li > a:last-child,
-#container.template #home_gadget li > a:last-child {
+#container.template #home_gadget li > a:last-child,
+#container.mic #home_gadget li > a:last-child {
   display: inline-block;
   font-size: 12px;
   color: #830050;
@@ -1848,31 +2199,37 @@ table.contact td > span {
 #container.lifestyle #home_top_ten li > a:last-child:hover,
 #container.voucher #home_top_ten li > a:last-child:hover,
 #container.template #home_top_ten li > a:last-child:hover,
+#container.mic #home_top_ten li > a:last-child:hover,
 #container.home #home_activity li > a:last-child:hover,
 #container.detail #home_activity li > a:last-child:hover,
 #container.lifestyle #home_activity li > a:last-child:hover,
 #container.voucher #home_activity li > a:last-child:hover,
 #container.template #home_activity li > a:last-child:hover,
+#container.mic #home_activity li > a:last-child:hover,
 #container.home #home_topic_hot li > a:last-child:hover,
 #container.detail #home_topic_hot li > a:last-child:hover,
 #container.lifestyle #home_topic_hot li > a:last-child:hover,
 #container.voucher #home_topic_hot li > a:last-child:hover,
 #container.template #home_topic_hot li > a:last-child:hover,
+#container.mic #home_topic_hot li > a:last-child:hover,
 #container.home #bath_news li > a:last-child:hover,
 #container.detail #bath_news li > a:last-child:hover,
 #container.lifestyle #bath_news li > a:last-child:hover,
 #container.voucher #bath_news li > a:last-child:hover,
 #container.template #bath_news li > a:last-child:hover,
+#container.mic #bath_news li > a:last-child:hover,
 #container.home #home_car li > a:last-child:hover,
 #container.detail #home_car li > a:last-child:hover,
 #container.lifestyle #home_car li > a:last-child:hover,
 #container.voucher #home_car li > a:last-child:hover,
 #container.template #home_car li > a:last-child:hover,
+#container.mic #home_car li > a:last-child:hover,
 #container.home #home_gadget li > a:last-child:hover,
 #container.detail #home_gadget li > a:last-child:hover,
 #container.lifestyle #home_gadget li > a:last-child:hover,
 #container.voucher #home_gadget li > a:last-child:hover,
-#container.template #home_gadget li > a:last-child:hover {
+#container.template #home_gadget li > a:last-child:hover,
+#container.mic #home_gadget li > a:last-child:hover {
   color: #e9008e;
 }
 #container.home #home_top_ten li:last-child,
@@ -1880,38 +2237,45 @@ table.contact td > span {
 #container.lifestyle #home_top_ten li:last-child,
 #container.voucher #home_top_ten li:last-child,
 #container.template #home_top_ten li:last-child,
+#container.mic #home_top_ten li:last-child,
 #container.home #home_activity li:last-child,
 #container.detail #home_activity li:last-child,
 #container.lifestyle #home_activity li:last-child,
 #container.voucher #home_activity li:last-child,
 #container.template #home_activity li:last-child,
+#container.mic #home_activity li:last-child,
 #container.home #home_topic_hot li:last-child,
 #container.detail #home_topic_hot li:last-child,
 #container.lifestyle #home_topic_hot li:last-child,
 #container.voucher #home_topic_hot li:last-child,
 #container.template #home_topic_hot li:last-child,
+#container.mic #home_topic_hot li:last-child,
 #container.home #bath_news li:last-child,
 #container.detail #bath_news li:last-child,
 #container.lifestyle #bath_news li:last-child,
 #container.voucher #bath_news li:last-child,
 #container.template #bath_news li:last-child,
+#container.mic #bath_news li:last-child,
 #container.home #home_car li:last-child,
 #container.detail #home_car li:last-child,
 #container.lifestyle #home_car li:last-child,
 #container.voucher #home_car li:last-child,
 #container.template #home_car li:last-child,
+#container.mic #home_car li:last-child,
 #container.home #home_gadget li:last-child,
 #container.detail #home_gadget li:last-child,
 #container.lifestyle #home_gadget li:last-child,
 #container.voucher #home_gadget li:last-child,
-#container.template #home_gadget li:last-child {
+#container.template #home_gadget li:last-child,
+#container.mic #home_gadget li:last-child {
   padding-bottom: 20px;
 }
 #container.home li label,
 #container.detail li label,
 #container.lifestyle li label,
 #container.voucher li label,
-#container.template li label {
+#container.template li label,
+#container.mic li label {
   display: inline-block;
 }
 #container.home #home_new_model ul,
@@ -1919,18 +2283,21 @@ table.contact td > span {
 #container.lifestyle #home_new_model ul,
 #container.voucher #home_new_model ul,
 #container.template #home_new_model ul,
+#container.mic #home_new_model ul,
 #container.home #home_top_ten ul,
 #container.detail #home_top_ten ul,
 #container.lifestyle #home_top_ten ul,
 #container.voucher #home_top_ten ul,
-#container.template #home_top_ten ul {
+#container.template #home_top_ten ul,
+#container.mic #home_top_ten ul {
   padding-bottom: 50px;
 }
 #container.home #home_topic_hot ul,
 #container.detail #home_topic_hot ul,
 #container.lifestyle #home_topic_hot ul,
 #container.voucher #home_topic_hot ul,
-#container.template #home_topic_hot ul {
+#container.template #home_topic_hot ul,
+#container.mic #home_topic_hot ul {
   padding: 12px 20px;
   margin: 0;
 }
@@ -1938,7 +2305,8 @@ table.contact td > span {
 #container.detail #home_topic_hot li,
 #container.lifestyle #home_topic_hot li,
 #container.voucher #home_topic_hot li,
-#container.template #home_topic_hot li {
+#container.template #home_topic_hot li,
+#container.mic #home_topic_hot li {
   padding: 0;
   min-height: 31px;
 }
@@ -1946,7 +2314,8 @@ table.contact td > span {
 #container.detail #home_topic_hot li a,
 #container.lifestyle #home_topic_hot li a,
 #container.voucher #home_topic_hot li a,
-#container.template #home_topic_hot li a {
+#container.template #home_topic_hot li a,
+#container.mic #home_topic_hot li a {
   display: inline;
   font-size: 14px;
   text-overflow: ellipsis;
@@ -1959,7 +2328,8 @@ table.contact td > span {
 #container.detail #home_topic_hot li a:last-child,
 #container.lifestyle #home_topic_hot li a:last-child,
 #container.voucher #home_topic_hot li a:last-child,
-#container.template #home_topic_hot li a:last-child {
+#container.template #home_topic_hot li a:last-child,
+#container.mic #home_topic_hot li a:last-child {
   margin: 0;
   top: 7px;
   display: inline;
@@ -1968,7 +2338,8 @@ table.contact td > span {
 #container.detail #home_topic_hot li:last-child,
 #container.lifestyle #home_topic_hot li:last-child,
 #container.voucher #home_topic_hot li:last-child,
-#container.template #home_topic_hot li:last-child {
+#container.template #home_topic_hot li:last-child,
+#container.mic #home_topic_hot li:last-child {
   border-bottom: none;
   padding-bottom: 20px;
 }
@@ -1976,7 +2347,8 @@ table.contact td > span {
 #container.detail #schedule,
 #container.lifestyle #schedule,
 #container.voucher #schedule,
-#container.template #schedule {
+#container.template #schedule,
+#container.mic #schedule {
   clear: both;
   margin-bottom: 5px;
   border-radius: 5px;
@@ -1991,7 +2363,8 @@ table.contact td > span {
 #container.detail #schedule h2,
 #container.lifestyle #schedule h2,
 #container.voucher #schedule h2,
-#container.template #schedule h2 {
+#container.template #schedule h2,
+#container.mic #schedule h2 {
   background: url('../img/hd-schedule.png') no-repeat;
   margin-bottom: 10px;
 }
@@ -1999,7 +2372,8 @@ table.contact td > span {
 #container.detail #schedule #tv,
 #container.lifestyle #schedule #tv,
 #container.voucher #schedule #tv,
-#container.template #schedule #tv {
+#container.template #schedule #tv,
+#container.mic #schedule #tv {
   width: 369px;
   height: 286px;
   background: url('../img/bg-calendar.png') no-repeat;
@@ -2010,7 +2384,8 @@ table.contact td > span {
 #container.detail #schedule article,
 #container.lifestyle #schedule article,
 #container.voucher #schedule article,
-#container.template #schedule article {
+#container.template #schedule article,
+#container.mic #schedule article {
   width: 335px;
   padding-top: 10px;
 }
@@ -2018,7 +2393,8 @@ table.contact td > span {
 #container.detail #schedule .view_all,
 #container.lifestyle #schedule .view_all,
 #container.voucher #schedule .view_all,
-#container.template #schedule .view_all {
+#container.template #schedule .view_all,
+#container.mic #schedule .view_all {
   right: 35px;
   top: 35px;
 }
@@ -2026,7 +2402,8 @@ table.contact td > span {
 #container.detail #schedule #search_event,
 #container.lifestyle #schedule #search_event,
 #container.voucher #schedule #search_event,
-#container.template #schedule #search_event {
+#container.template #schedule #search_event,
+#container.mic #schedule #search_event {
   -moz-border-radius: 5px;
   width: 325px;
   height: 34px;
@@ -2050,7 +2427,8 @@ table.contact td > span {
 #container.detail #schedule #search_event input[type=search],
 #container.lifestyle #schedule #search_event input[type=search],
 #container.voucher #schedule #search_event input[type=search],
-#container.template #schedule #search_event input[type=search] {
+#container.template #schedule #search_event input[type=search],
+#container.mic #schedule #search_event input[type=search] {
   border: none;
   background: #d2d2d2;
   border: solid 1px #b8b8b8;
@@ -2066,7 +2444,8 @@ table.contact td > span {
 #container.detail #schedule #search_event input[type=submit],
 #container.lifestyle #schedule #search_event input[type=submit],
 #container.voucher #schedule #search_event input[type=submit],
-#container.template #schedule #search_event input[type=submit] {
+#container.template #schedule #search_event input[type=submit],
+#container.mic #schedule #search_event input[type=submit] {
   border: none;
   text-indent: -1000em;
   position: absolute;
@@ -2080,7 +2459,8 @@ table.contact td > span {
 #container.detail #schedule #search_event label,
 #container.lifestyle #schedule #search_event label,
 #container.voucher #schedule #search_event label,
-#container.template #schedule #search_event label {
+#container.template #schedule #search_event label,
+#container.mic #schedule #search_event label {
   font-family: 'Trajan Pro';
   color: #e1bf15;
   font-size: 14px;
@@ -2093,7 +2473,8 @@ table.contact td > span {
 #container.detail #schedule h4,
 #container.lifestyle #schedule h4,
 #container.voucher #schedule h4,
-#container.template #schedule h4 {
+#container.template #schedule h4,
+#container.mic #schedule h4 {
   font-family: 'Trajan Pro';
   font-weight: normal;
   font-size: 18px;
@@ -2105,7 +2486,8 @@ table.contact td > span {
 #container.detail #schedule li,
 #container.lifestyle #schedule li,
 #container.voucher #schedule li,
-#container.template #schedule li {
+#container.template #schedule li,
+#container.mic #schedule li {
   font-size: 12px;
   padding-bottom: 10px;
   padding-left: 15px;
@@ -2115,7 +2497,8 @@ table.contact td > span {
 #container.detail #schedule li label,
 #container.lifestyle #schedule li label,
 #container.voucher #schedule li label,
-#container.template #schedule li label {
+#container.template #schedule li label,
+#container.mic #schedule li label {
   color: #f2d2ab;
   font-size: 13px;
   display: block;
@@ -2125,7 +2508,8 @@ table.contact td > span {
 #container.detail #schedule li a:last-child,
 #container.lifestyle #schedule li a:last-child,
 #container.voucher #schedule li a:last-child,
-#container.template #schedule li a:last-child {
+#container.template #schedule li a:last-child,
+#container.mic #schedule li a:last-child {
   color: #b9b9b9;
   text-decoration: none;
   text-transform: capitalize;
@@ -2135,14 +2519,16 @@ table.contact td > span {
 #container.detail #schedule li a:hover,
 #container.lifestyle #schedule li a:hover,
 #container.voucher #schedule li a:hover,
-#container.template #schedule li a:hover {
+#container.template #schedule li a:hover,
+#container.mic #schedule li a:hover {
   text-decoration: underline;
 }
 #container.home .bg-gold,
 #container.detail .bg-gold,
 #container.lifestyle .bg-gold,
 #container.voucher .bg-gold,
-#container.template .bg-gold {
+#container.template .bg-gold,
+#container.mic .bg-gold {
   clear: both;
   height: 62px;
   background: url('../img/hd-lifestyle_gold.png') no-repeat;
@@ -2152,14 +2538,16 @@ table.contact td > span {
 #container.detail header,
 #container.lifestyle header,
 #container.voucher header,
-#container.template header {
+#container.template header,
+#container.mic header {
   z-index: 5;
 }
 #container.home header nav,
 #container.detail header nav,
 #container.lifestyle header nav,
 #container.voucher header nav,
-#container.template header nav {
+#container.template header nav,
+#container.mic header nav {
   width: 1100px;
   height: 60px;
   background: url('../img/bg-nav_main.png') no-repeat center top;
@@ -2168,21 +2556,24 @@ table.contact td > span {
 #container.detail header nav ul,
 #container.lifestyle header nav ul,
 #container.voucher header nav ul,
-#container.template header nav ul {
+#container.template header nav ul,
+#container.mic header nav ul {
   overflow: visible;
 }
 #container.home header nav li,
 #container.detail header nav li,
 #container.lifestyle header nav li,
 #container.voucher header nav li,
-#container.template header nav li {
+#container.template header nav li,
+#container.mic header nav li {
   position: relative;
 }
 #container.home header nav li a,
 #container.detail header nav li a,
 #container.lifestyle header nav li a,
 #container.voucher header nav li a,
-#container.template header nav li a {
+#container.template header nav li a,
+#container.mic header nav li a {
   height: 60px;
   line-height: 60px;
   text-align: left;
@@ -2197,23 +2588,27 @@ table.contact td > span {
 #container.lifestyle header nav li a:hover,
 #container.voucher header nav li a:hover,
 #container.template header nav li a:hover,
+#container.mic header nav li a:hover,
 #container.home header nav li a.current,
 #container.detail header nav li a.current,
 #container.lifestyle header nav li a.current,
 #container.voucher header nav li a.current,
 #container.template header nav li a.current,
+#container.mic header nav li a.current,
 #container.home header nav li.sfHover > a,
 #container.detail header nav li.sfHover > a,
 #container.lifestyle header nav li.sfHover > a,
 #container.voucher header nav li.sfHover > a,
-#container.template header nav li.sfHover > a {
+#container.template header nav li.sfHover > a,
+#container.mic header nav li.sfHover > a {
   background-color: rgba(0, 0, 0, 0.2);
 }
 #container.home header nav li:nth-child(1) a,
 #container.detail header nav li:nth-child(1) a,
 #container.lifestyle header nav li:nth-child(1) a,
 #container.voucher header nav li:nth-child(1) a,
-#container.template header nav li:nth-child(1) a {
+#container.template header nav li:nth-child(1) a,
+#container.mic header nav li:nth-child(1) a {
   width: 156px;
   background-position: 50px 25px;
   border-radius: 10px 0 0 10px;
@@ -2222,7 +2617,8 @@ table.contact td > span {
 #container.detail header nav li:nth-child(2) a,
 #container.lifestyle header nav li:nth-child(2) a,
 #container.voucher header nav li:nth-child(2) a,
-#container.template header nav li:nth-child(2) a {
+#container.template header nav li:nth-child(2) a,
+#container.mic header nav li:nth-child(2) a {
   width: 337px;
   background-position: -98px 25px;
 }
@@ -2230,7 +2626,8 @@ table.contact td > span {
 #container.detail header nav li:nth-child(3) a,
 #container.lifestyle header nav li:nth-child(3) a,
 #container.voucher header nav li:nth-child(3) a,
-#container.template header nav li:nth-child(3) a {
+#container.template header nav li:nth-child(3) a,
+#container.mic header nav li:nth-child(3) a {
   width: 159px;
   background-position: -440px 25px;
 }
@@ -2238,7 +2635,8 @@ table.contact td > span {
 #container.detail header nav li:nth-child(4) a,
 #container.lifestyle header nav li:nth-child(4) a,
 #container.voucher header nav li:nth-child(4) a,
-#container.template header nav li:nth-child(4) a {
+#container.template header nav li:nth-child(4) a,
+#container.mic header nav li:nth-child(4) a {
   width: 256px;
   background-position: -595px 25px;
 }
@@ -2246,7 +2644,8 @@ table.contact td > span {
 #container.detail header nav li:nth-child(5) a,
 #container.lifestyle header nav li:nth-child(5) a,
 #container.voucher header nav li:nth-child(5) a,
-#container.template header nav li:nth-child(5) a {
+#container.template header nav li:nth-child(5) a,
+#container.mic header nav li:nth-child(5) a {
   width: 187px;
   background-position: -843px 25px;
 }
@@ -2254,7 +2653,8 @@ table.contact td > span {
 #container.detail header nav > ul > li > ul,
 #container.lifestyle header nav > ul > li > ul,
 #container.voucher header nav > ul > li > ul,
-#container.template header nav > ul > li > ul {
+#container.template header nav > ul > li > ul,
+#container.mic header nav > ul > li > ul {
   position: absolute;
   left: 0;
   top: 60px;
@@ -2267,21 +2667,24 @@ table.contact td > span {
 #container.detail header nav > ul > li > ul li:first-child > a,
 #container.lifestyle header nav > ul > li > ul li:first-child > a,
 #container.voucher header nav > ul > li > ul li:first-child > a,
-#container.template header nav > ul > li > ul li:first-child > a {
+#container.template header nav > ul > li > ul li:first-child > a,
+#container.mic header nav > ul > li > ul li:first-child > a {
   border-top: 0;
 }
 #container.home header nav > ul > li > ul li:last-child > a,
 #container.detail header nav > ul > li > ul li:last-child > a,
 #container.lifestyle header nav > ul > li > ul li:last-child > a,
 #container.voucher header nav > ul > li > ul li:last-child > a,
-#container.template header nav > ul > li > ul li:last-child > a {
+#container.template header nav > ul > li > ul li:last-child > a,
+#container.mic header nav > ul > li > ul li:last-child > a {
   border-bottom: 0;
 }
 #container.home header nav > ul > li > ul li,
 #container.detail header nav > ul > li > ul li,
 #container.lifestyle header nav > ul > li > ul li,
 #container.voucher header nav > ul > li > ul li,
-#container.template header nav > ul > li > ul li {
+#container.template header nav > ul > li > ul li,
+#container.mic header nav > ul > li > ul li {
   display: block;
   float: none;
   margin: 0;
@@ -2290,7 +2693,8 @@ table.contact td > span {
 #container.detail header nav > ul > li > ul li a,
 #container.lifestyle header nav > ul > li > ul li a,
 #container.voucher header nav > ul > li > ul li a,
-#container.template header nav > ul > li > ul li a {
+#container.template header nav > ul > li > ul li a,
+#container.mic header nav > ul > li > ul li a {
   text-indent: 0;
   background: none;
   text-decoration: none;
@@ -2313,21 +2717,24 @@ table.contact td > span {
 #container.detail header nav > ul > li > ul li a:hover,
 #container.lifestyle header nav > ul > li > ul li a:hover,
 #container.voucher header nav > ul > li > ul li a:hover,
-#container.template header nav > ul > li > ul li a:hover {
+#container.template header nav > ul > li > ul li a:hover,
+#container.mic header nav > ul > li > ul li a:hover {
   background-color: #720043;
 }
 #container.home #container > header nav > ul > li:first-child > ul,
 #container.detail #container > header nav > ul > li:first-child > ul,
 #container.lifestyle #container > header nav > ul > li:first-child > ul,
 #container.voucher #container > header nav > ul > li:first-child > ul,
-#container.template #container > header nav > ul > li:first-child > ul {
+#container.template #container > header nav > ul > li:first-child > ul,
+#container.mic #container > header nav > ul > li:first-child > ul {
   left: 8px;
 }
 #container.home #home_hot_promotion h2,
 #container.detail #home_hot_promotion h2,
 #container.lifestyle #home_hot_promotion h2,
 #container.voucher #home_hot_promotion h2,
-#container.template #home_hot_promotion h2 {
+#container.template #home_hot_promotion h2,
+#container.mic #home_hot_promotion h2 {
   height: 52px;
   background: url('../img/hd-hot_promotion.png') no-repeat;
   margin-bottom: 20px;
@@ -2336,7 +2743,8 @@ table.contact td > span {
 #container.detail #home_lets_party,
 #container.lifestyle #home_lets_party,
 #container.voucher #home_lets_party,
-#container.template #home_lets_party {
+#container.template #home_lets_party,
+#container.mic #home_lets_party {
   margin-bottom: 45px;
   clear: both;
 }
@@ -2344,28 +2752,32 @@ table.contact td > span {
 #container.detail #home_lets_party h2,
 #container.lifestyle #home_lets_party h2,
 #container.voucher #home_lets_party h2,
-#container.template #home_lets_party h2 {
+#container.template #home_lets_party h2,
+#container.mic #home_lets_party h2 {
   background: url('../img/hd-lets_party.png') no-repeat;
 }
 #container.home #home_lets_party li,
 #container.detail #home_lets_party li,
 #container.lifestyle #home_lets_party li,
 #container.voucher #home_lets_party li,
-#container.template #home_lets_party li {
+#container.template #home_lets_party li,
+#container.mic #home_lets_party li {
   margin: 20px 0 10px;
 }
 #container.home #home_lets_party li:nth-child(2),
 #container.detail #home_lets_party li:nth-child(2),
 #container.lifestyle #home_lets_party li:nth-child(2),
 #container.voucher #home_lets_party li:nth-child(2),
-#container.template #home_lets_party li:nth-child(2) {
+#container.template #home_lets_party li:nth-child(2),
+#container.mic #home_lets_party li:nth-child(2) {
   margin: 20px 20px 10px;
 }
 #container.home #home_lets_party li a,
 #container.detail #home_lets_party li a,
 #container.lifestyle #home_lets_party li a,
 #container.voucher #home_lets_party li a,
-#container.template #home_lets_party li a {
+#container.template #home_lets_party li a,
+#container.mic #home_lets_party li a {
   position: relative;
   display: block;
   background-clip: padding-box;
@@ -2377,7 +2789,8 @@ table.contact td > span {
 #container.detail #home_lets_party li a h4,
 #container.lifestyle #home_lets_party li a h4,
 #container.voucher #home_lets_party li a h4,
-#container.template #home_lets_party li a h4 {
+#container.template #home_lets_party li a h4,
+#container.mic #home_lets_party li a h4 {
   text-align: center;
   position: absolute;
   font-weight: normal;
@@ -2395,11 +2808,13 @@ table.contact td > span {
 #container.lifestyle #article_ilm,
 #container.voucher #article_ilm,
 #container.template #article_ilm,
+#container.mic #article_ilm,
 #container.home #ilm_recommend,
 #container.detail #ilm_recommend,
 #container.lifestyle #ilm_recommend,
 #container.voucher #ilm_recommend,
-#container.template #ilm_recommend {
+#container.template #ilm_recommend,
+#container.mic #ilm_recommend {
   float: left;
   position: relative;
   margin-bottom: 20px;
@@ -2410,11 +2825,13 @@ table.contact td > span {
 #container.lifestyle #article_ilm h3,
 #container.voucher #article_ilm h3,
 #container.template #article_ilm h3,
+#container.mic #article_ilm h3,
 #container.home #ilm_recommend h3,
 #container.detail #ilm_recommend h3,
 #container.lifestyle #ilm_recommend h3,
 #container.voucher #ilm_recommend h3,
-#container.template #ilm_recommend h3 {
+#container.template #ilm_recommend h3,
+#container.mic #ilm_recommend h3 {
   border-radius: 5px 5px 0 0;
   font-family: 'HelvethaicaMon Med';
   font-weight: normal;
@@ -2434,11 +2851,13 @@ table.contact td > span {
 #container.lifestyle #article_ilm ul,
 #container.voucher #article_ilm ul,
 #container.template #article_ilm ul,
+#container.mic #article_ilm ul,
 #container.home #ilm_recommend ul,
 #container.detail #ilm_recommend ul,
 #container.lifestyle #ilm_recommend ul,
 #container.voucher #ilm_recommend ul,
-#container.template #ilm_recommend ul {
+#container.template #ilm_recommend ul,
+#container.mic #ilm_recommend ul {
   padding: 20px;
   border-radius: 0 0 5px 5px;
   border: solid 1px #100f09;
@@ -2450,11 +2869,13 @@ table.contact td > span {
 #container.lifestyle #article_ilm li,
 #container.voucher #article_ilm li,
 #container.template #article_ilm li,
+#container.mic #article_ilm li,
 #container.home #ilm_recommend li,
 #container.detail #ilm_recommend li,
 #container.lifestyle #ilm_recommend li,
 #container.voucher #ilm_recommend li,
-#container.template #ilm_recommend li {
+#container.template #ilm_recommend li,
+#container.mic #ilm_recommend li {
   font-size: 12px;
   line-height: 135%;
   padding: 0 0 20px;
@@ -2464,11 +2885,13 @@ table.contact td > span {
 #container.lifestyle #article_ilm li:last-child,
 #container.voucher #article_ilm li:last-child,
 #container.template #article_ilm li:last-child,
+#container.mic #article_ilm li:last-child,
 #container.home #ilm_recommend li:last-child,
 #container.detail #ilm_recommend li:last-child,
 #container.lifestyle #ilm_recommend li:last-child,
 #container.voucher #ilm_recommend li:last-child,
-#container.template #ilm_recommend li:last-child {
+#container.template #ilm_recommend li:last-child,
+#container.mic #ilm_recommend li:last-child {
   padding-bottom: 20px;
 }
 #container.home #article_ilm li > a:first-child,
@@ -2476,11 +2899,13 @@ table.contact td > span {
 #container.lifestyle #article_ilm li > a:first-child,
 #container.voucher #article_ilm li > a:first-child,
 #container.template #article_ilm li > a:first-child,
+#container.mic #article_ilm li > a:first-child,
 #container.home #ilm_recommend li > a:first-child,
 #container.detail #ilm_recommend li > a:first-child,
 #container.lifestyle #ilm_recommend li > a:first-child,
 #container.voucher #ilm_recommend li > a:first-child,
-#container.template #ilm_recommend li > a:first-child {
+#container.template #ilm_recommend li > a:first-child,
+#container.mic #ilm_recommend li > a:first-child {
   color: #f2d2ab;
   text-decoration: none;
   display: block;
@@ -2493,21 +2918,25 @@ table.contact td > span {
 #container.lifestyle #article_ilm li > a:last-child,
 #container.voucher #article_ilm li > a:last-child,
 #container.template #article_ilm li > a:last-child,
+#container.mic #article_ilm li > a:last-child,
 #container.home #ilm_recommend li > a:last-child,
 #container.detail #ilm_recommend li > a:last-child,
 #container.lifestyle #ilm_recommend li > a:last-child,
 #container.voucher #ilm_recommend li > a:last-child,
 #container.template #ilm_recommend li > a:last-child,
+#container.mic #ilm_recommend li > a:last-child,
 #container.home #article_ilm div > a:last-child,
 #container.detail #article_ilm div > a:last-child,
 #container.lifestyle #article_ilm div > a:last-child,
 #container.voucher #article_ilm div > a:last-child,
 #container.template #article_ilm div > a:last-child,
+#container.mic #article_ilm div > a:last-child,
 #container.home #ilm_recommend div > a:last-child,
 #container.detail #ilm_recommend div > a:last-child,
 #container.lifestyle #ilm_recommend div > a:last-child,
 #container.voucher #ilm_recommend div > a:last-child,
-#container.template #ilm_recommend div > a:last-child {
+#container.template #ilm_recommend div > a:last-child,
+#container.mic #ilm_recommend div > a:last-child {
   color: #830050;
   text-decoration: none;
   display: inline-block;
@@ -2521,11 +2950,13 @@ table.contact td > span {
 #container.lifestyle #article_ilm li > a:last-child:hover,
 #container.voucher #article_ilm li > a:last-child:hover,
 #container.template #article_ilm li > a:last-child:hover,
+#container.mic #article_ilm li > a:last-child:hover,
 #container.home #ilm_recommend li > a:last-child:hover,
 #container.detail #ilm_recommend li > a:last-child:hover,
 #container.lifestyle #ilm_recommend li > a:last-child:hover,
 #container.voucher #ilm_recommend li > a:last-child:hover,
-#container.template #ilm_recommend li > a:last-child:hover {
+#container.template #ilm_recommend li > a:last-child:hover,
+#container.mic #ilm_recommend li > a:last-child:hover {
   color: #e9008e;
 }
 #container.home #article_ilm .view_all,
@@ -2533,11 +2964,13 @@ table.contact td > span {
 #container.lifestyle #article_ilm .view_all,
 #container.voucher #article_ilm .view_all,
 #container.template #article_ilm .view_all,
+#container.mic #article_ilm .view_all,
 #container.home #ilm_recommend .view_all,
 #container.detail #ilm_recommend .view_all,
 #container.lifestyle #ilm_recommend .view_all,
 #container.voucher #ilm_recommend .view_all,
-#container.template #ilm_recommend .view_all {
+#container.template #ilm_recommend .view_all,
+#container.mic #ilm_recommend .view_all {
   position: absolute;
   right: 20px;
   bottom: 10px;
@@ -2547,11 +2980,13 @@ table.contact td > span {
 #container.lifestyle #article_ilm div,
 #container.voucher #article_ilm div,
 #container.template #article_ilm div,
+#container.mic #article_ilm div,
 #container.home #ilm_recommend div,
 #container.detail #ilm_recommend div,
 #container.lifestyle #ilm_recommend div,
 #container.voucher #ilm_recommend div,
-#container.template #ilm_recommend div {
+#container.template #ilm_recommend div,
+#container.mic #ilm_recommend div {
   padding: 20px;
   line-height: 20px;
   margin-bottom: 0;
@@ -2561,11 +2996,13 @@ table.contact td > span {
 #container.lifestyle #article_ilm div > a:nth-child(2),
 #container.voucher #article_ilm div > a:nth-child(2),
 #container.template #article_ilm div > a:nth-child(2),
+#container.mic #article_ilm div > a:nth-child(2),
 #container.home #ilm_recommend div > a:nth-child(2),
 #container.detail #ilm_recommend div > a:nth-child(2),
 #container.lifestyle #ilm_recommend div > a:nth-child(2),
 #container.voucher #ilm_recommend div > a:nth-child(2),
-#container.template #ilm_recommend div > a:nth-child(2) {
+#container.template #ilm_recommend div > a:nth-child(2),
+#container.mic #ilm_recommend div > a:nth-child(2) {
   display: block;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -2580,11 +3017,13 @@ table.contact td > span {
 #container.lifestyle #article_ilm div > img,
 #container.voucher #article_ilm div > img,
 #container.template #article_ilm div > img,
+#container.mic #article_ilm div > img,
 #container.home #ilm_recommend div > img,
 #container.detail #ilm_recommend div > img,
 #container.lifestyle #ilm_recommend div > img,
 #container.voucher #ilm_recommend div > img,
-#container.template #ilm_recommend div > img {
+#container.template #ilm_recommend div > img,
+#container.mic #ilm_recommend div > img {
   display: block;
   float: left;
   margin: 0 20px 10px 0;
@@ -2594,11 +3033,13 @@ table.contact td > span {
 #container.lifestyle #activity,
 #container.voucher #activity,
 #container.template #activity,
+#container.mic #activity,
 #container.home #ilm_recommend,
 #container.detail #ilm_recommend,
 #container.lifestyle #ilm_recommend,
 #container.voucher #ilm_recommend,
-#container.template #ilm_recommend {
+#container.template #ilm_recommend,
+#container.mic #ilm_recommend {
   float: right;
   clear: none;
 }
@@ -2606,7 +3047,8 @@ table.contact td > span {
 #container.detail #ilm_recommend,
 #container.lifestyle #ilm_recommend,
 #container.voucher #ilm_recommend,
-#container.template #ilm_recommend {
+#container.template #ilm_recommend,
+#container.mic #ilm_recommend {
   width: 305px;
   padding-top: 21px;
   margin-right: 20px;
@@ -2615,7 +3057,8 @@ table.contact td > span {
 #container.detail #ilm_recommend .view_all,
 #container.lifestyle #ilm_recommend .view_all,
 #container.voucher #ilm_recommend .view_all,
-#container.template #ilm_recommend .view_all {
+#container.template #ilm_recommend .view_all,
+#container.mic #ilm_recommend .view_all {
   top: 35px;
   right: 15px;
 }
@@ -2623,7 +3066,8 @@ table.contact td > span {
 #container.detail h2.hd-midnight_news,
 #container.lifestyle h2.hd-midnight_news,
 #container.voucher h2.hd-midnight_news,
-#container.template h2.hd-midnight_news {
+#container.template h2.hd-midnight_news,
+#container.mic h2.hd-midnight_news {
   background: url('../img/hd-midnight_news.png') no-repeat;
   margin-bottom: 20px;
 }
@@ -2631,7 +3075,8 @@ table.contact td > span {
 #container.detail #midnight_news,
 #container.lifestyle #midnight_news,
 #container.voucher #midnight_news,
-#container.template #midnight_news {
+#container.template #midnight_news,
+#container.mic #midnight_news {
   padding: 20px;
   border-radius: 10px;
   border: 1px solid rgba(202, 158, 15, 0.15);
@@ -2647,7 +3092,8 @@ table.contact td > span {
 #container.detail #midnight_news img:first-child,
 #container.lifestyle #midnight_news img:first-child,
 #container.voucher #midnight_news img:first-child,
-#container.template #midnight_news img:first-child {
+#container.template #midnight_news img:first-child,
+#container.mic #midnight_news img:first-child {
   float: left;
   margin-right: 20px;
 }
@@ -2655,7 +3101,8 @@ table.contact td > span {
 #container.detail #midnight_news h4,
 #container.lifestyle #midnight_news h4,
 #container.voucher #midnight_news h4,
-#container.template #midnight_news h4 {
+#container.template #midnight_news h4,
+#container.mic #midnight_news h4 {
   font-weight: normal;
   color: #f2d2ab;
   font-family: 'Trajan Pro';
@@ -2666,7 +3113,8 @@ table.contact td > span {
 #container.detail #midnight_news a:last-child,
 #container.lifestyle #midnight_news a:last-child,
 #container.voucher #midnight_news a:last-child,
-#container.template #midnight_news a:last-child {
+#container.template #midnight_news a:last-child,
+#container.mic #midnight_news a:last-child {
   color: #830050;
   font-family: 'HelvethaicaMon Med';
   text-decoration: none;
@@ -2676,21 +3124,25 @@ table.contact td > span {
 #container.lifestyle #night_news,
 #container.voucher #night_news,
 #container.template #night_news,
+#container.mic #night_news,
 #container.home #bath_news,
 #container.detail #bath_news,
 #container.lifestyle #bath_news,
 #container.voucher #bath_news,
 #container.template #bath_news,
+#container.mic #bath_news,
 #container.home #home_restaurant,
 #container.detail #home_restaurant,
 #container.lifestyle #home_restaurant,
 #container.voucher #home_restaurant,
 #container.template #home_restaurant,
+#container.mic #home_restaurant,
 #container.home #home_photo,
 #container.detail #home_photo,
 #container.lifestyle #home_photo,
 #container.voucher #home_photo,
-#container.template #home_photo {
+#container.template #home_photo,
+#container.mic #home_photo {
   width: 415px;
   float: left;
 }
@@ -2698,14 +3150,16 @@ table.contact td > span {
 #container.detail #bath_news,
 #container.lifestyle #bath_news,
 #container.voucher #bath_news,
-#container.template #bath_news {
+#container.template #bath_news,
+#container.mic #bath_news {
   float: right;
 }
 #container.home #home_clip,
 #container.detail #home_clip,
 #container.lifestyle #home_clip,
 #container.voucher #home_clip,
-#container.template #home_clip {
+#container.template #home_clip,
+#container.mic #home_clip {
   clear: both;
   width: 100%;
 }
@@ -2713,7 +3167,8 @@ table.contact td > span {
 #container.detail #home_clip li,
 #container.lifestyle #home_clip li,
 #container.voucher #home_clip li,
-#container.template #home_clip li {
+#container.template #home_clip li,
+#container.mic #home_clip li {
   width: 160px;
   padding: 20px 0 20px 20px;
 }
@@ -2721,7 +3176,8 @@ table.contact td > span {
 #container.detail #home_clip li > a:first-child img,
 #container.lifestyle #home_clip li > a:first-child img,
 #container.voucher #home_clip li > a:first-child img,
-#container.template #home_clip li > a:first-child img {
+#container.template #home_clip li > a:first-child img,
+#container.mic #home_clip li > a:first-child img {
   left: 0;
   top: 0;
   position: relative;
@@ -2732,14 +3188,16 @@ table.contact td > span {
 #container.detail #home_clip li > a:nth-child(2),
 #container.lifestyle #home_clip li > a:nth-child(2),
 #container.voucher #home_clip li > a:nth-child(2),
-#container.template #home_clip li > a:nth-child(2) {
+#container.template #home_clip li > a:nth-child(2),
+#container.mic #home_clip li > a:nth-child(2) {
   padding: 10px 0 0;
 }
 #container.home .shorten,
 #container.detail .shorten,
 #container.lifestyle .shorten,
 #container.voucher .shorten,
-#container.template .shorten {
+#container.template .shorten,
+#container.mic .shorten {
   overflow: hidden;
   display: block;
   text-overflow: ellipsis;
@@ -2749,7 +3207,8 @@ table.contact td > span {
 #container.detail .full,
 #container.lifestyle .full,
 #container.voucher .full,
-#container.template .full {
+#container.template .full,
+#container.mic .full {
   width: 100%;
 }
 #container.home #home_car,
@@ -2757,11 +3216,13 @@ table.contact td > span {
 #container.lifestyle #home_car,
 #container.voucher #home_car,
 #container.template #home_car,
+#container.mic #home_car,
 #container.home #home_gadget,
 #container.detail #home_gadget,
 #container.lifestyle #home_gadget,
 #container.voucher #home_gadget,
-#container.template #home_gadget {
+#container.template #home_gadget,
+#container.mic #home_gadget {
   float: right;
   width: 665px;
 }
@@ -2770,36 +3231,43 @@ table.contact td > span {
 #container.lifestyle #night_news ul,
 #container.voucher #night_news ul,
 #container.template #night_news ul,
+#container.mic #night_news ul,
 #container.home #bath_news ul,
 #container.detail #bath_news ul,
 #container.lifestyle #bath_news ul,
 #container.voucher #bath_news ul,
 #container.template #bath_news ul,
+#container.mic #bath_news ul,
 #container.home #home_restaurant ul,
 #container.detail #home_restaurant ul,
 #container.lifestyle #home_restaurant ul,
 #container.voucher #home_restaurant ul,
 #container.template #home_restaurant ul,
+#container.mic #home_restaurant ul,
 #container.home #home_photo ul,
 #container.detail #home_photo ul,
 #container.lifestyle #home_photo ul,
 #container.voucher #home_photo ul,
 #container.template #home_photo ul,
+#container.mic #home_photo ul,
 #container.home #home_car ul,
 #container.detail #home_car ul,
 #container.lifestyle #home_car ul,
 #container.voucher #home_car ul,
 #container.template #home_car ul,
+#container.mic #home_car ul,
 #container.home #home_gadget ul,
 #container.detail #home_gadget ul,
 #container.lifestyle #home_gadget ul,
 #container.voucher #home_gadget ul,
 #container.template #home_gadget ul,
+#container.mic #home_gadget ul,
 #container.home #bath_news ul,
 #container.detail #bath_news ul,
 #container.lifestyle #bath_news ul,
 #container.voucher #bath_news ul,
-#container.template #bath_news ul {
+#container.template #bath_news ul,
+#container.mic #bath_news ul {
   border-radius: 0 0 5px 5px;
   border: solid 1px #100f09;
   border-top: none;
@@ -2809,42 +3277,49 @@ table.contact td > span {
 #container.lifestyle #home_restaurant ul,
 #container.voucher #home_restaurant ul,
 #container.template #home_restaurant ul,
+#container.mic #home_restaurant ul,
 #container.home #home_car ul,
 #container.detail #home_car ul,
 #container.lifestyle #home_car ul,
 #container.voucher #home_car ul,
 #container.template #home_car ul,
+#container.mic #home_car ul,
 #container.home #home_photo ul,
 #container.detail #home_photo ul,
 #container.lifestyle #home_photo ul,
 #container.voucher #home_photo ul,
 #container.template #home_photo ul,
+#container.mic #home_photo ul,
 #container.home #home_gadget ul,
 #container.detail #home_gadget ul,
 #container.lifestyle #home_gadget ul,
 #container.voucher #home_gadget ul,
-#container.template #home_gadget ul {
+#container.template #home_gadget ul,
+#container.mic #home_gadget ul {
   height: 355px;
 }
 #container.home #slider,
 #container.detail #slider,
 #container.lifestyle #slider,
 #container.voucher #slider,
-#container.template #slider {
+#container.template #slider,
+#container.mic #slider {
   padding-bottom: 50px;
 }
 #container.home #slider .royalWrapper,
 #container.detail #slider .royalWrapper,
 #container.lifestyle #slider .royalWrapper,
 #container.voucher #slider .royalWrapper,
-#container.template #slider .royalWrapper {
+#container.template #slider .royalWrapper,
+#container.mic #slider .royalWrapper {
   padding-bottom: 50px;
 }
 #container.home #slider .royalSlide,
 #container.detail #slider .royalSlide,
 #container.lifestyle #slider .royalSlide,
 #container.voucher #slider .royalSlide,
-#container.template #slider .royalSlide {
+#container.template #slider .royalSlide,
+#container.mic #slider .royalSlide {
   padding-bottom: 10px!important;
   overflow: visible;
 }
@@ -2852,7 +3327,8 @@ table.contact td > span {
 #container.detail #slider .rsGCaption,
 #container.lifestyle #slider .rsGCaption,
 #container.voucher #slider .rsGCaption,
-#container.template #slider .rsGCaption {
+#container.template #slider .rsGCaption,
+#container.mic #slider .rsGCaption {
   top: auto;
   bottom: 0;
   width: 750px;
@@ -2862,7 +3338,8 @@ table.contact td > span {
 #container.detail #slider .rsGCaption strong,
 #container.lifestyle #slider .rsGCaption strong,
 #container.voucher #slider .rsGCaption strong,
-#container.template #slider .rsGCaption strong {
+#container.template #slider .rsGCaption strong,
+#container.mic #slider .rsGCaption strong {
   color: #e1bf15;
   font-weight: normal;
 }
@@ -2870,7 +3347,8 @@ table.contact td > span {
 #container.detail #slider .rsGCaption figure,
 #container.lifestyle #slider .rsGCaption figure,
 #container.voucher #slider .rsGCaption figure,
-#container.template #slider .rsGCaption figure {
+#container.template #slider .rsGCaption figure,
+#container.mic #slider .rsGCaption figure {
   margin-top: 10px;
   margin-left: 5px;
 }
@@ -2878,21 +3356,24 @@ table.contact td > span {
 #container.detail #slider .royalControlNavContainer,
 #container.lifestyle #slider .royalControlNavContainer,
 #container.voucher #slider .royalControlNavContainer,
-#container.template #slider .royalControlNavContainer {
+#container.template #slider .royalControlNavContainer,
+#container.mic #slider .royalControlNavContainer {
   margin-right: 0;
 }
 #container.home #slider .royalControlNavContainer .royalControlNavCenterer,
 #container.detail #slider .royalControlNavContainer .royalControlNavCenterer,
 #container.lifestyle #slider .royalControlNavContainer .royalControlNavCenterer,
 #container.voucher #slider .royalControlNavContainer .royalControlNavCenterer,
-#container.template #slider .royalControlNavContainer .royalControlNavCenterer {
+#container.template #slider .royalControlNavContainer .royalControlNavCenterer,
+#container.mic #slider .royalControlNavContainer .royalControlNavCenterer {
   padding: 0;
 }
 #container.home #slider .rsBullets,
 #container.detail #slider .rsBullets,
 #container.lifestyle #slider .rsBullets,
 #container.voucher #slider .rsBullets,
-#container.template #slider .rsBullets {
+#container.template #slider .rsBullets,
+#container.mic #slider .rsBullets {
   margin: 0;
   top: 310px;
   padding: 0;
@@ -2902,7 +3383,8 @@ table.contact td > span {
 #container.detail #slider .rsBullets .rsBullet,
 #container.lifestyle #slider .rsBullets .rsBullet,
 #container.voucher #slider .rsBullets .rsBullet,
-#container.template #slider .rsBullets .rsBullet {
+#container.template #slider .rsBullets .rsBullet,
+#container.mic #slider .rsBullets .rsBullet {
   text-indent: 0;
   color: #fff;
   text-decoration: none;
@@ -2938,7 +3420,8 @@ table.contact td > span {
 #container.detail #slider .rsBullets .rsBullet:last-child,
 #container.lifestyle #slider .rsBullets .rsBullet:last-child,
 #container.voucher #slider .rsBullets .rsBullet:last-child,
-#container.template #slider .rsBullets .rsBullet:last-child {
+#container.template #slider .rsBullets .rsBullet:last-child,
+#container.mic #slider .rsBullets .rsBullet:last-child {
   margin-right: 0;
 }
 #container.home #slider .rsBullets .rsBullet.rsNavSelected,
@@ -2946,11 +3429,13 @@ table.contact td > span {
 #container.lifestyle #slider .rsBullets .rsBullet.rsNavSelected,
 #container.voucher #slider .rsBullets .rsBullet.rsNavSelected,
 #container.template #slider .rsBullets .rsBullet.rsNavSelected,
+#container.mic #slider .rsBullets .rsBullet.rsNavSelected,
 #container.home #slider .rsBullets .rsBullet:hover,
 #container.detail #slider .rsBullets .rsBullet:hover,
 #container.lifestyle #slider .rsBullets .rsBullet:hover,
 #container.voucher #slider .rsBullets .rsBullet:hover,
-#container.template #slider .rsBullets .rsBullet:hover {
+#container.template #slider .rsBullets .rsBullet:hover,
+#container.mic #slider .rsBullets .rsBullet:hover {
   color: #e1bf15;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.8);
   font-weight: bold;
@@ -2985,28 +3470,32 @@ table.contact td > span {
 #container.detail .rsBullets > .rsBullet:nth-child(1):after,
 #container.lifestyle .rsBullets > .rsBullet:nth-child(1):after,
 #container.voucher .rsBullets > .rsBullet:nth-child(1):after,
-#container.template .rsBullets > .rsBullet:nth-child(1):after {
+#container.template .rsBullets > .rsBullet:nth-child(1):after,
+#container.mic .rsBullets > .rsBullet:nth-child(1):after {
   content: '1';
 }
 #container.home .rsBullets > .rsBullet:nth-child(2):after,
 #container.detail .rsBullets > .rsBullet:nth-child(2):after,
 #container.lifestyle .rsBullets > .rsBullet:nth-child(2):after,
 #container.voucher .rsBullets > .rsBullet:nth-child(2):after,
-#container.template .rsBullets > .rsBullet:nth-child(2):after {
+#container.template .rsBullets > .rsBullet:nth-child(2):after,
+#container.mic .rsBullets > .rsBullet:nth-child(2):after {
   content: '2';
 }
 #container.home .rsBullets > .rsBullet:nth-child(3):after,
 #container.detail .rsBullets > .rsBullet:nth-child(3):after,
 #container.lifestyle .rsBullets > .rsBullet:nth-child(3):after,
 #container.voucher .rsBullets > .rsBullet:nth-child(3):after,
-#container.template .rsBullets > .rsBullet:nth-child(3):after {
+#container.template .rsBullets > .rsBullet:nth-child(3):after,
+#container.mic .rsBullets > .rsBullet:nth-child(3):after {
   content: '3';
 }
 #container.home .rsBullets > .rsBullet:nth-child(4):after,
 #container.detail .rsBullets > .rsBullet:nth-child(4):after,
 #container.lifestyle .rsBullets > .rsBullet:nth-child(4):after,
 #container.voucher .rsBullets > .rsBullet:nth-child(4):after,
-#container.template .rsBullets > .rsBullet:nth-child(4):after {
+#container.template .rsBullets > .rsBullet:nth-child(4):after,
+#container.mic .rsBullets > .rsBullet:nth-child(4):after {
   content: '4';
 }
 #activity .banner {
@@ -3474,6 +3963,7 @@ section.border {
 }
 .home header nav > ul > li:nth-child(1) > a,
 .detail header nav > ul > li:nth-child(2) > a,
+.mic header nav > ul > li:nth-child(2) > a,
 .lifestyle header nav > ul > li:nth-child(3) > a,
 .voucher header nav > ul > li:nth-child(4) > a {
   background-color: rgba(0, 0, 0, 0.2) !important;
