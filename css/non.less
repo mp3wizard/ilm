@@ -56,6 +56,8 @@
 
 ul.h { margin: 0; padding: 0; list-style: none; overflow: hidden; }
 ul.h li { display: block; float: left; }
+a:focus, input:focus, label:focus {outline:none;}
+a::-moz-focus-inner, input::-moz-focus-inner, label::-moz-focus-inner {border:0;}
 
 /* ==|== primary styles =====================================================
    Author: Sapapwish Siripon (@mp3wizard)
@@ -197,9 +199,10 @@ footer.intro .inner p a:first-child { margin-left: 20px; }
 			.submit { text-align: right;
 				input[type=checkbox] { margin-right: 5px; }
 				input[type=submit] { .size(130px, 30px); background: url('../img/btn-search.png') no-repeat; border: none; text-indent: -1000em; }
-				label { display: inline-block; width: 65px; text-align: left; }
+				label { display: inline-block; width: 65px; text-align: left; position: relative; top: 2px; cursor: pointer; }
 			}
-			input[type=text], select { .size(238px, 23px); padding: 0px; border-radius: 0; border: solid 1px #b4b4b4;  }
+			input[type=text], select { .size(238px, 25px); padding: 0px; border-radius: 0; border: solid 1px #b4b4b4;  }
+			input[type=text] { padding: 0 3px; width: 232px; font-size: 12px;}
 			.bullet { margin: 0 0 0 20px; padding: 0 20px; border-left: dashed 1px #939393; position: relative; top: -8px;
 				img { margin-right: 10px; }
 				li { padding-bottom: 6px; white-space: nowrap;}

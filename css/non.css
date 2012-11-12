@@ -71,6 +71,16 @@ ul.h li {
   display: block;
   float: left;
 }
+a:focus,
+input:focus,
+label:focus {
+  outline: none;
+}
+a::-moz-focus-inner,
+input::-moz-focus-inner,
+label::-moz-focus-inner {
+  border: 0;
+}
 /* ==|== primary styles =====================================================
    Author: Sapapwish Siripon (@mp3wizard)
    ========================================================================== */
@@ -549,14 +559,22 @@ footer.intro .inner p a:first-child {
   display: inline-block;
   width: 65px;
   text-align: left;
+  position: relative;
+  top: 2px;
+  cursor: pointer;
 }
 #container.mic article.full .map_point input[type=text],
 #container.mic article.full .map_point select {
   width: 238px;
-  height: 23px;
+  height: 25px;
   padding: 0px;
   border-radius: 0;
   border: solid 1px #b4b4b4;
+}
+#container.mic article.full .map_point input[type=text] {
+  padding: 0 3px;
+  width: 232px;
+  font-size: 12px;
 }
 #container.mic article.full .map_point .bullet {
   margin: 0 0 0 20px;
