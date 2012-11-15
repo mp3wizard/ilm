@@ -1090,6 +1090,7 @@ footer.client {
   background: transparent;
   float: left;
   width: 850px;
+  min-width: 850px;
 }
 footer.client h3 {
   margin: 0;
@@ -3793,6 +3794,12 @@ section.border {
 }
 #container.template2 .logo_client {
   display: none;
+}
+#container.template2 .google_ads {
+  clear: both;
+  width: 1100px;
+  height: 100px;
+  margin-bottom: 50px;
 }
 #container.template.topic .border > h2:first-child {
   -webkit-border-radius: 5px;

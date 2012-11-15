@@ -195,7 +195,7 @@
 		    <?php include("include/side_1.html"); ?>
 		    <?php include("include/side_2.html"); ?>
 	    </aside>
-	    <footer>
+	    <footer class="client">
 		    <h3><a href="#">Massage Information Center</a></h3>
 			 <h3><a href="#">Massage Official Website</a></h3>
 	    </footer>
