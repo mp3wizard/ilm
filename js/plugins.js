@@ -70,6 +70,10 @@ $('#banner-rotator').royalSlider({
         $(".s_num").text((this.currSlideId+1) + "/"  +   (this.numSlides) );
     }
  });
+$('#client_group').bxSlider({ 
+	 mode: 'vertical',
+	 displaySlideQty: 3
+ }); 
  
  // Gallery Slider
  $('.gallery .horizontal_slide > div:first-child').royalSlider({			

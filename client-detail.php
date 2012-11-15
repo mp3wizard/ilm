@@ -33,7 +33,7 @@
 			    	</article>
 			    	<aside class="vertical_slide">
 				    	<div>
-				    		<ul>
+				    		<ul id="client_group">
 						    	<li><a href="#"><img src="img/thumb-client-01.jpg" alt="" /> บรรยากาศร้าน</a></li>
 						    	<li><a href="#"><img src="img/thumb-client-02.jpg" alt="" /> บรรยากาศห้อง</a></li>
 						    	<li><a href="#"><img src="img/thumb-client-03.jpg" alt="" /> น้องๆ น่ารัก</a></li>
