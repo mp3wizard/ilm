@@ -85,7 +85,7 @@
 			    		</tbody>
 			    	</table>
 		    	</section>
-		    	<h2 class="ir hd-promotion">Promotion</h2>
+		    	<h2 class="ir hd-promotion">Information &amp; Promotion <a href="#" class="ir">Top Promotion</a></h2>
 		    	<section id="promotion" class="round clearfix">
 		    		<div>
 		    			<a href="#"><img src="http://placehold.it/205x350/" alt="" /></a>
@@ -199,7 +199,7 @@
 			    	</tfoot>
 		    	</table>
 		    	
-		    	<h3 class="hd-lastest_promotion">Lastest Promotion <a href="#" class="ir">Top Promotion</a></h3>
+		    	<h3 class="hd-lastest_promotion">Lastest Promotion </h3>
 		    	<table class="column_2">
 			    	<tbody>
 				    	<tr>

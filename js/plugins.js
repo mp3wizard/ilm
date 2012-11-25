@@ -70,10 +70,13 @@ $('#banner-rotator').royalSlider({
         $(".s_num").text((this.currSlideId+1) + "/"  +   (this.numSlides) );
     }
  });
-$('#client_group').bxSlider({ 
-	 mode: 'vertical',
-	 displaySlideQty: 3
- }); 
+
+$('img').imagesLoaded(function() { 
+	 $('#client_group').bxSlider({ 
+	 	mode: 'vertical',
+	 	displaySlideQty: 3
+	 }); 
+ })
  
  // Gallery Slider
  $('.gallery .horizontal_slide > div:first-child').royalSlider({			
@@ -106,14 +109,17 @@ $('#client_group').bxSlider({
         $(".s_num").text((this.currSlideId+1) + "/"  +   (this.numSlides) );
     }
  });
-  $('#room_group').bxSlider({ 
+ $('img').imagesLoaded(function() { 
+	 $('#room_group').bxSlider({ 
 	 mode: 'vertical',
 	 displaySlideQty: 3
- }); 
- $('#girl_group').bxSlider({ 
-	 mode: 'vertical',
-	 displaySlideQty: 3
- });
+	 }); 
+	 $('#girl_group').bxSlider({ 
+		 mode: 'vertical',
+		 displaySlideQty: 3
+	 });
+ })
+  
  
  $('header nav > ul').superfish({ 
 	 delay:       500,

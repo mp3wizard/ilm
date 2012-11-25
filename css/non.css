@@ -890,7 +890,9 @@ article > section {
   padding: 10px 20px;
   -moz-box-shadow: inset 0 0 5px rgba(254, 254, 216, 0.3);
   -webkit-box-shadow: inset 0 0 5px rgba(254, 254, 216, 0.3);
-  box-shadow: inset 0 0 5px rgba(254, 254, 216, 0.3);
+  box-shadow: inset 0 0 3px rgba(254, 254, 216, 0.3);
+  width: 765px;
+  float: none;
 }
 .client #detail th {
   vertical-align: top;
@@ -917,6 +919,19 @@ h2.hd-price {
 h2.hd-promotion {
   height: 52px;
   background: url(../img/hd-information.png) no-repeat;
+  position: relative;
+  overflow: visible;
+}
+h2.hd-promotion a.ir {
+  width: 121px;
+  height: 92px;
+  display: block;
+  position: absolute;
+  right: -20px;
+  background: url(../img/badge-top_promotion.png) no-repeat;
+  top: 50%;
+  margin-top: -50px;
+  display: block;
 }
 .client #promotion {
   margin: 20px 0;
@@ -1075,16 +1090,6 @@ h3.hd-lastest_promotion {
   text-indent: -1000em;
   margin: 50px 0 10px;
   position: relative;
-}
-h3.hd-lastest_promotion a.ir {
-  width: 121px;
-  height: 92px;
-  display: block;
-  position: absolute;
-  left: 290px;
-  background: url(../img/badge-top_promotion.png) no-repeat;
-  top: 50%;
-  margin-top: -50px;
 }
 footer.client {
   background: transparent;
