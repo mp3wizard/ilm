@@ -4096,6 +4096,7 @@ background-image: linear-gradient(bottom, #2f2f2f 0%, #1c1c1c 50%, #2f2f2f 100%,
 
 
 /* Lifestyle */
+#container.lifestyle header h1 a { background: url('../img/logo_lifestyle.png') no-repeat; width: 480px; }
 .list_col2, .list_col3 { position: relative; }
 section > .list_col2 { width: 49%; display: block; float: left; }
 section > .list_col2:nth-child(2n-1) { margin-right: 2%; }
