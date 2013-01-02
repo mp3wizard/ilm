@@ -4112,6 +4112,7 @@ section > .list_col2 li { padding-left: 25%; width: 22%; }
 .list_col2 ul > li:nth-child(2n-1) { padding-right: 6%; }
 
 .col3 { clear: both; width: 100%!important; }
-.list_col3 ul { min-height: 550px; padding: 3.5% 2%; padding-top: 0;}
-.list_col3 ul > li { width: 15.5%; padding-left: 0%; padding-right: 1.4%; height: 240px;}
+.list_col3 ul { min-height: 520px; padding: 3.5% 2%; padding-top: 0;}
+.list_col3 ul > li { width: 15.5%; padding-left: 0%; padding-right: 1.4%; height: 240px; margin-top: 2.5%;}
 .list_col3 ul > li:nth-child(6n) { padding-right: 0; }
+.list_col3 ul > li a:nth-child(2) { margin: 8px 0; }
